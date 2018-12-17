@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EDY4016A
+D RAM shit
+K RAM
+$ENDCMP
+#
+$CMP PCIe_x4_Connector
+D PCIe x4 Edge
+K PCIe x4
+F http://pinouts.ru/Slots/pci_express_pinout.shtml
+$ENDCMP
+#
+#End Doc Library
