@@ -32,7 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:custom
-LIBS:pcie_test_1-cache
+LIBS:RASAC-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -47,19 +47,6 @@ Comment2 "Advisor: Professor Sable"
 Comment3 "Senior Projects"
 Comment4 "The Cooper Union for the Advancement of Science and Art"
 $EndDescr
-$Comp
-L XC7A25T_CSG325 U?
-U 2 1 5C11344D
-P 2150 6300
-AR Path="/5C064F83/5C11344D" Ref="U?"  Part="2" 
-AR Path="/5C0630AC/5C11344D" Ref="U?"  Part="2" 
-F 0 "U?" H 2150 6000 60  0000 C CNN
-F 1 "XC7A25T_CSG325" H 2150 6100 60  0000 C CNN
-F 2 "" H 2450 8050 60  0001 C CNN
-F 3 "" H 2450 8050 60  0001 C CNN
-	2    2150 6300
-	1    0    0    -1  
-$EndComp
 Text GLabel 950  5700 0    60   Input ~ 0
 VCCO
 Text GLabel 3150 2000 2    60   Input ~ 0
@@ -126,32 +113,6 @@ Text GLabel 3150 2900 2    60   Input ~ 0
 PCIe_PERST
 Text GLabel 3150 1900 2    60   Input ~ 0
 VCCO
-$Comp
-L XC7A25T_CSG325 U?
-U 3 1 5C13C290
-P 5400 6300
-AR Path="/5C064F83/5C13C290" Ref="U?"  Part="3" 
-AR Path="/5C0652F6/5C13C290" Ref="U?"  Part="3" 
-F 0 "U?" H 5400 6000 60  0000 C CNN
-F 1 "XC7A25T_CSG325" H 5400 6100 60  0000 C CNN
-F 2 "" H 5700 8050 60  0001 C CNN
-F 3 "" H 5700 8050 60  0001 C CNN
-	3    5400 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L XC7A25T_CSG325 U?
-U 4 1 5C13C297
-P 8300 5850
-AR Path="/5C064F83/5C13C297" Ref="U?"  Part="4" 
-AR Path="/5C0652F6/5C13C297" Ref="U?"  Part="4" 
-F 0 "U?" H 8300 5550 60  0000 C CNN
-F 1 "XC7A25T_CSG325" H 8300 5650 60  0000 C CNN
-F 2 "" H 8600 7600 60  0001 C CNN
-F 3 "" H 8600 7600 60  0001 C CNN
-	4    8300 5850
-	1    0    0    -1  
-$EndComp
 Text GLabel 4300 5700 0    60   Input ~ 0
 VCCO
 Wire Wire Line
@@ -323,4 +284,37 @@ Text GLabel 3150 3100 2    60   Input ~ 0
 TTL_DCD1
 Text GLabel 3150 3200 2    60   Input ~ 0
 TTL_RI1
+$Comp
+L XC7A35T_CSG325 U?
+U 2 1 5C174C53
+P 2150 6300
+F 0 "U?" H 2150 6000 60  0000 C CNN
+F 1 "XC7A35T_CSG325" H 2150 6100 60  0000 C CNN
+F 2 "" H 2450 8050 60  0001 C CNN
+F 3 "" H 2450 8050 60  0001 C CNN
+	2    2150 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L XC7A35T_CSG325 U?
+U 3 1 5C174C9A
+P 5400 6300
+F 0 "U?" H 5400 6000 60  0000 C CNN
+F 1 "XC7A35T_CSG325" H 5400 6100 60  0000 C CNN
+F 2 "" H 5700 8050 60  0001 C CNN
+F 3 "" H 5700 8050 60  0001 C CNN
+	3    5400 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L XC7A35T_CSG325 U?
+U 4 1 5C174CD5
+P 8300 5850
+F 0 "U?" H 8300 5550 60  0000 C CNN
+F 1 "XC7A35T_CSG325" H 8300 5650 60  0000 C CNN
+F 2 "" H 8600 7600 60  0001 C CNN
+F 3 "" H 8600 7600 60  0001 C CNN
+	4    8300 5850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

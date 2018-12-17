@@ -32,7 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:custom
-LIBS:pcie_test_1-cache
+LIBS:RASAC-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -47,17 +47,6 @@ Comment2 "Advisor: Professor Sable"
 Comment3 "Senior Projects"
 Comment4 "The Cooper Union for the Advancement of Science and Art"
 $EndDescr
-$Comp
-L XC7A25T_CSG325 U1
-U 1 1 5C067A76
-P 3150 4600
-F 0 "U1" H 3150 4300 60  0000 C CNN
-F 1 "XC7A25T_CSG325" H 3150 4400 60  0000 C CNN
-F 2 "" H 3450 6350 60  0001 C CNN
-F 3 "" H 3450 6350 60  0001 C CNN
-	1    3150 4600
-	1    0    0    -1  
-$EndComp
 Text GLabel 2350 4500 0    60   Input ~ 0
 VCCO
 Text GLabel 4050 3500 2    60   Input ~ 0
@@ -527,4 +516,15 @@ Wire Wire Line
 	7300 4550 7300 4600
 Wire Wire Line
 	7300 4600 7450 4600
+$Comp
+L XC7A35T_CSG325 U?
+U 1 1 5C174B0F
+P 3150 4600
+F 0 "U?" H 3150 4300 60  0000 C CNN
+F 1 "XC7A35T_CSG325" H 3150 4400 60  0000 C CNN
+F 2 "" H 3450 6350 60  0001 C CNN
+F 3 "" H 3450 6350 60  0001 C CNN
+	1    3150 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
