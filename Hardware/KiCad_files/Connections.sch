@@ -278,9 +278,9 @@ Text GLabel 3150 2400 2    60   Input ~ 0
 TTL_CTS1
 Text GLabel 3150 2700 2    60   Input ~ 0
 TTL_DTR1
-Text GLabel 3150 3000 2    60   Input ~ 0
+Text GLabel 3150 1400 2    60   Input ~ 0
 TTL_DSR1
-Text GLabel 3150 3100 2    60   Input ~ 0
+Text GLabel 3150 2600 2    60   Input ~ 0
 TTL_DCD1
 Text GLabel 3150 3200 2    60   Input ~ 0
 TTL_RI1
@@ -317,4 +317,8 @@ F 3 "" H 8600 7600 60  0001 C CNN
 	4    8300 5850
 	1    0    0    -1  
 $EndComp
+Text GLabel 3150 3000 2    60   Input ~ 0
+SYSCLK_N
+Text GLabel 3150 3100 2    60   Input ~ 0
+SYSCLK_P
 $EndSCHEMATC
