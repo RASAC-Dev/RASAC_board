@@ -2365,8 +2365,8 @@ F 3 "" H 5400 3950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5400 4050 5150 4050
-Text Notes 4500 4250 0    60   ~ 0
-RAM needs 2.5V
+Text Notes 4500 4350 0    60   ~ 0
+RAM needs 2.5V\nSYSCLK needs 2.5V
 $Comp
 L XC7A35T_CSG325 U?
 U 8 1 5C174146

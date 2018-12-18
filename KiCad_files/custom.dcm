@@ -11,4 +11,9 @@ K PCIe x4
 F http://pinouts.ru/Slots/pci_express_pinout.shtml
 $ENDCMP
 #
+$CMP TFP410
+D HDMI
+K HDMI
+$ENDCMP
+#
 #End Doc Library
