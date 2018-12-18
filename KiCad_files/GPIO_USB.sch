@@ -1,0 +1,527 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom
+LIBS:RASAC-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title "Reconfigurable Application-Specific Accelerator Card"
+Date "2018-11-27"
+Rev "1.0"
+Comp "Brian Hong & Jasmine Tang"
+Comment1 ""
+Comment2 "Advisor: Professor Sable"
+Comment3 "Senior Projects"
+Comment4 "The Cooper Union for the Advancement of Science and Art"
+$EndDescr
+Text GLabel 2300 4000 0    60   Input ~ 0
+GPIO_5
+Text GLabel 4400 4000 2    60   Input ~ 0
+GPIO_6
+Text GLabel 2300 4100 0    60   Input ~ 0
+GPIO_7
+Text GLabel 4400 4100 2    60   Input ~ 0
+GPIO_8
+Text GLabel 2300 4200 0    60   Input ~ 0
+GPIO_9
+Text GLabel 4400 4200 2    60   Input ~ 0
+GPIO_10
+Text GLabel 2300 4300 0    60   Input ~ 0
+GPIO_11
+Text GLabel 4400 4300 2    60   Input ~ 0
+GPIO_12
+Text GLabel 2300 4400 0    60   Input ~ 0
+GPIO_13
+Text GLabel 4400 4400 2    60   Input ~ 0
+GPIO_14
+Text GLabel 2300 3800 0    60   Input ~ 0
+GPIO_1
+Text GLabel 4400 3800 2    60   Input ~ 0
+GPIO_2
+Text GLabel 2300 3900 0    60   Input ~ 0
+GPIO_3
+Text GLabel 4400 3900 2    60   Input ~ 0
+GPIO_4
+$Comp
+L Conn_02x08_Odd_Even J9
+U 1 1 5C19A9DE
+P 3300 4100
+F 0 "J9" H 3350 4500 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 3350 3600 50  0001 C CNN
+F 2 "" H 3300 4100 50  0001 C CNN
+F 3 "" H 3300 4100 50  0001 C CNN
+	1    3300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R74
+U 1 1 5C19AB1A
+P 2400 4650
+F 0 "R74" V 2480 4650 50  0000 C CNN
+F 1 "470" V 2400 4650 50  0000 C CNN
+F 2 "" V 2330 4650 50  0001 C CNN
+F 3 "" H 2400 4650 50  0001 C CNN
+	1    2400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_Small D5
+U 1 1 5C19AB43
+P 2400 4900
+F 0 "D5" H 2350 5025 50  0000 L CNN
+F 1 "LED_Small" H 2225 4800 50  0001 L CNN
+F 2 "" V 2400 4900 50  0001 C CNN
+F 3 "" V 2400 4900 50  0001 C CNN
+	1    2400 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR114
+U 1 1 5C19AB94
+P 3100 5350
+F 0 "#PWR114" H 3100 5100 50  0001 C CNN
+F 1 "GND" H 3100 5200 50  0001 C CNN
+F 2 "" H 3100 5350 50  0001 C CNN
+F 3 "" H 3100 5350 50  0001 C CNN
+	1    3100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R75
+U 1 1 5C19ACEE
+P 2500 5000
+F 0 "R75" V 2580 5000 50  0000 C CNN
+F 1 "470" V 2500 5000 50  0000 C CNN
+F 2 "" V 2430 5000 50  0001 C CNN
+F 3 "" H 2500 5000 50  0001 C CNN
+	1    2500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_Small D6
+U 1 1 5C19ACF4
+P 2500 5250
+F 0 "D6" H 2450 5375 50  0000 L CNN
+F 1 "LED_Small" H 2325 5150 50  0001 L CNN
+F 2 "" V 2500 5250 50  0001 C CNN
+F 3 "" V 2500 5250 50  0001 C CNN
+	1    2500 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED_Small D7
+U 1 1 5C19AF93
+P 2600 4900
+F 0 "D7" H 2550 5025 50  0000 L CNN
+F 1 "LED_Small" H 2425 4800 50  0001 L CNN
+F 2 "" V 2600 4900 50  0001 C CNN
+F 3 "" V 2600 4900 50  0001 C CNN
+	1    2600 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R77
+U 1 1 5C19AF99
+P 2700 5000
+F 0 "R77" V 2780 5000 50  0000 C CNN
+F 1 "470" V 2700 5000 50  0000 C CNN
+F 2 "" V 2630 5000 50  0001 C CNN
+F 3 "" H 2700 5000 50  0001 C CNN
+	1    2700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_Small D8
+U 1 1 5C19AF9F
+P 2700 5250
+F 0 "D8" H 2650 5375 50  0000 L CNN
+F 1 "LED_Small" H 2525 5150 50  0001 L CNN
+F 2 "" V 2700 5250 50  0001 C CNN
+F 3 "" V 2700 5250 50  0001 C CNN
+	1    2700 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R76
+U 1 1 5C19AFBB
+P 2600 4650
+F 0 "R76" V 2680 4650 50  0000 C CNN
+F 1 "470" V 2600 4650 50  0000 C CNN
+F 2 "" V 2530 4650 50  0001 C CNN
+F 3 "" H 2600 4650 50  0001 C CNN
+	1    2600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_Small D9
+U 1 1 5C19B20A
+P 2800 4900
+F 0 "D9" H 2750 5025 50  0000 L CNN
+F 1 "LED_Small" H 2625 4800 50  0001 L CNN
+F 2 "" V 2800 4900 50  0001 C CNN
+F 3 "" V 2800 4900 50  0001 C CNN
+	1    2800 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R79
+U 1 1 5C19B210
+P 2900 5000
+F 0 "R79" V 2980 5000 50  0000 C CNN
+F 1 "470" V 2900 5000 50  0000 C CNN
+F 2 "" V 2830 5000 50  0001 C CNN
+F 3 "" H 2900 5000 50  0001 C CNN
+	1    2900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_Small D10
+U 1 1 5C19B216
+P 2900 5250
+F 0 "D10" H 2850 5375 50  0000 L CNN
+F 1 "LED_Small" H 2725 5150 50  0001 L CNN
+F 2 "" V 2900 5250 50  0001 C CNN
+F 3 "" V 2900 5250 50  0001 C CNN
+	1    2900 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R78
+U 1 1 5C19B21D
+P 2800 4650
+F 0 "R78" V 2880 4650 50  0000 C CNN
+F 1 "470" V 2800 4650 50  0000 C CNN
+F 2 "" V 2730 4650 50  0001 C CNN
+F 3 "" H 2800 4650 50  0001 C CNN
+	1    2800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_Small D11
+U 1 1 5C19B32C
+P 3000 4900
+F 0 "D11" H 2950 5025 50  0000 L CNN
+F 1 "LED_Small" H 2825 4800 50  0001 L CNN
+F 2 "" V 3000 4900 50  0001 C CNN
+F 3 "" V 3000 4900 50  0001 C CNN
+	1    3000 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R80
+U 1 1 5C19B33F
+P 3000 4650
+F 0 "R80" V 3080 4650 50  0000 C CNN
+F 1 "470" V 3000 4650 50  0000 C CNN
+F 2 "" V 2930 4650 50  0001 C CNN
+F 3 "" H 3000 4650 50  0001 C CNN
+	1    3000 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3800 3100 3800
+Wire Wire Line
+	2300 3900 3100 3900
+Wire Wire Line
+	2300 4000 3100 4000
+Wire Wire Line
+	3100 4100 2300 4100
+Wire Wire Line
+	2300 4200 3100 4200
+Wire Wire Line
+	3100 4300 2300 4300
+Wire Wire Line
+	2300 4400 3100 4400
+Wire Wire Line
+	3600 4400 4400 4400
+Wire Wire Line
+	3600 4300 4400 4300
+Wire Wire Line
+	3600 4200 4400 4200
+Wire Wire Line
+	3600 4100 4400 4100
+Wire Wire Line
+	4400 4000 3600 4000
+Wire Wire Line
+	3600 3900 4400 3900
+Wire Wire Line
+	4400 3800 3600 3800
+Wire Wire Line
+	2400 5000 2400 5350
+Wire Wire Line
+	2400 5350 3100 5350
+Wire Wire Line
+	2600 5350 2600 5000
+Connection ~ 2600 5350
+Connection ~ 2500 5350
+Wire Wire Line
+	2800 5350 2800 5000
+Wire Wire Line
+	3000 5350 3000 5000
+Connection ~ 2700 5350
+Connection ~ 2900 5350
+Connection ~ 2800 5350
+Wire Wire Line
+	3100 5350 3100 4500
+Connection ~ 3000 5350
+$Comp
+L R R87
+U 1 1 5C19B75D
+P 4300 4650
+F 0 "R87" V 4380 4650 50  0000 C CNN
+F 1 "470" V 4300 4650 50  0000 C CNN
+F 2 "" V 4230 4650 50  0001 C CNN
+F 3 "" H 4300 4650 50  0001 C CNN
+	1    4300 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED_Small D18
+U 1 1 5C19B763
+P 4300 4900
+F 0 "D18" H 4250 5025 50  0000 L CNN
+F 1 "LED_Small" H 4125 4800 50  0001 L CNN
+F 2 "" V 4300 4900 50  0001 C CNN
+F 3 "" V 4300 4900 50  0001 C CNN
+	1    4300 4900
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R86
+U 1 1 5C19B769
+P 4200 5000
+F 0 "R86" V 4280 5000 50  0000 C CNN
+F 1 "470" V 4200 5000 50  0000 C CNN
+F 2 "" V 4130 5000 50  0001 C CNN
+F 3 "" H 4200 5000 50  0001 C CNN
+	1    4200 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED_Small D17
+U 1 1 5C19B76F
+P 4200 5250
+F 0 "D17" H 4150 5375 50  0000 L CNN
+F 1 "LED_Small" H 4025 5150 50  0001 L CNN
+F 2 "" V 4200 5250 50  0001 C CNN
+F 3 "" V 4200 5250 50  0001 C CNN
+	1    4200 5250
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_Small D16
+U 1 1 5C19B775
+P 4100 4900
+F 0 "D16" H 4050 5025 50  0000 L CNN
+F 1 "LED_Small" H 3925 4800 50  0001 L CNN
+F 2 "" V 4100 4900 50  0001 C CNN
+F 3 "" V 4100 4900 50  0001 C CNN
+	1    4100 4900
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R84
+U 1 1 5C19B77B
+P 4000 5000
+F 0 "R84" V 4080 5000 50  0000 C CNN
+F 1 "470" V 4000 5000 50  0000 C CNN
+F 2 "" V 3930 5000 50  0001 C CNN
+F 3 "" H 4000 5000 50  0001 C CNN
+	1    4000 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED_Small D15
+U 1 1 5C19B781
+P 4000 5250
+F 0 "D15" H 3950 5375 50  0000 L CNN
+F 1 "LED_Small" H 3825 5150 50  0001 L CNN
+F 2 "" V 4000 5250 50  0001 C CNN
+F 3 "" V 4000 5250 50  0001 C CNN
+	1    4000 5250
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R85
+U 1 1 5C19B787
+P 4100 4650
+F 0 "R85" V 4180 4650 50  0000 C CNN
+F 1 "470" V 4100 4650 50  0000 C CNN
+F 2 "" V 4030 4650 50  0001 C CNN
+F 3 "" H 4100 4650 50  0001 C CNN
+	1    4100 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED_Small D14
+U 1 1 5C19B78D
+P 3900 4900
+F 0 "D14" H 3850 5025 50  0000 L CNN
+F 1 "LED_Small" H 3725 4800 50  0001 L CNN
+F 2 "" V 3900 4900 50  0001 C CNN
+F 3 "" V 3900 4900 50  0001 C CNN
+	1    3900 4900
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R82
+U 1 1 5C19B793
+P 3800 5000
+F 0 "R82" V 3880 5000 50  0000 C CNN
+F 1 "470" V 3800 5000 50  0000 C CNN
+F 2 "" V 3730 5000 50  0001 C CNN
+F 3 "" H 3800 5000 50  0001 C CNN
+	1    3800 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED_Small D13
+U 1 1 5C19B799
+P 3800 5250
+F 0 "D13" H 3750 5375 50  0000 L CNN
+F 1 "LED_Small" H 3625 5150 50  0001 L CNN
+F 2 "" V 3800 5250 50  0001 C CNN
+F 3 "" V 3800 5250 50  0001 C CNN
+	1    3800 5250
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R83
+U 1 1 5C19B79F
+P 3900 4650
+F 0 "R83" V 3980 4650 50  0000 C CNN
+F 1 "470" V 3900 4650 50  0000 C CNN
+F 2 "" V 3830 4650 50  0001 C CNN
+F 3 "" H 3900 4650 50  0001 C CNN
+	1    3900 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED_Small D12
+U 1 1 5C19B7A5
+P 3700 4900
+F 0 "D12" H 3650 5025 50  0000 L CNN
+F 1 "LED_Small" H 3525 4800 50  0001 L CNN
+F 2 "" V 3700 4900 50  0001 C CNN
+F 3 "" V 3700 4900 50  0001 C CNN
+	1    3700 4900
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R81
+U 1 1 5C19B7AB
+P 3700 4650
+F 0 "R81" V 3780 4650 50  0000 C CNN
+F 1 "470" V 3700 4650 50  0000 C CNN
+F 2 "" V 3630 4650 50  0001 C CNN
+F 3 "" H 3700 4650 50  0001 C CNN
+	1    3700 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5350 4300 5000
+Wire Wire Line
+	3600 5350 4300 5350
+Wire Wire Line
+	4100 5350 4100 5000
+Connection ~ 4100 5350
+Connection ~ 4200 5350
+Wire Wire Line
+	3900 5350 3900 5000
+Wire Wire Line
+	3700 5350 3700 5000
+Connection ~ 4000 5350
+Connection ~ 3800 5350
+Connection ~ 3900 5350
+Wire Wire Line
+	3600 5350 3600 4500
+Connection ~ 3700 5350
+$Comp
+L GND #PWR115
+U 1 1 5C19BABD
+P 3600 5350
+F 0 "#PWR115" H 3600 5100 50  0001 C CNN
+F 1 "GND" H 3600 5200 50  0001 C CNN
+F 2 "" H 3600 5350 50  0001 C CNN
+F 3 "" H 3600 5350 50  0001 C CNN
+	1    3600 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4500 2400 3800
+Connection ~ 2400 3800
+Wire Wire Line
+	2500 4850 2500 3900
+Connection ~ 2500 3900
+Wire Wire Line
+	2600 4500 2600 4000
+Connection ~ 2600 4000
+Wire Wire Line
+	2700 4850 2700 4100
+Connection ~ 2700 4100
+Wire Wire Line
+	2800 4500 2800 4200
+Connection ~ 2800 4200
+Wire Wire Line
+	2900 4850 2900 4300
+Connection ~ 2900 4300
+Wire Wire Line
+	3000 4500 3000 4400
+Connection ~ 3000 4400
+Wire Wire Line
+	3700 4500 3700 4400
+Connection ~ 3700 4400
+Wire Wire Line
+	3800 4850 3800 4300
+Connection ~ 3800 4300
+Wire Wire Line
+	3900 4500 3900 4200
+Connection ~ 3900 4200
+Wire Wire Line
+	4000 4850 4000 4100
+Connection ~ 4000 4100
+Wire Wire Line
+	4100 4500 4100 4000
+Connection ~ 4100 4000
+Wire Wire Line
+	4200 4850 4200 3900
+Connection ~ 4200 3900
+Wire Wire Line
+	4300 4500 4300 3800
+Connection ~ 4300 3800
+Text Notes 7050 4350 0    60   ~ 0
+USB Controller?
+$EndSCHEMATC
