@@ -118,7 +118,7 @@ $EndSheet
 $Sheet
 S 6500 3800 1550 900 
 U 5C14F3D5
-F0 "HDMI" 60
-F1 "HDMI.sch" 60
+F0 "HDMI_VGA" 60
+F1 "HDMI_VGA.sch" 60
 $EndSheet
 $EndSCHEMATC

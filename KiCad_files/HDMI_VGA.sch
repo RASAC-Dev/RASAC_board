@@ -486,90 +486,422 @@ F 3 "" H 1850 7300 50  0001 C CNN
 	1    1850 7300
 	0    1    1    0   
 $EndComp
-Text GLabel 4800 4200 0    60   Input ~ 0
+Text GLabel 3100 3600 0    60   Input ~ 0
 HDMI_D0
-Text GLabel 4800 4100 0    60   Input ~ 0
+Text GLabel 3100 3500 0    60   Input ~ 0
 HDMI_D1
-Text GLabel 4800 4000 0    60   Input ~ 0
+Text GLabel 3100 3400 0    60   Input ~ 0
 HDMI_D2
-Text GLabel 4800 3900 0    60   Input ~ 0
+Text GLabel 3100 3300 0    60   Input ~ 0
 HDMI_D3
-Text GLabel 4800 3800 0    60   Input ~ 0
+Text GLabel 3100 3200 0    60   Input ~ 0
 HDMI_D4
-Text GLabel 4800 3700 0    60   Input ~ 0
+Text GLabel 3100 3100 0    60   Input ~ 0
 HDMI_D5
-Text GLabel 4800 3400 0    60   Input ~ 0
+Text GLabel 3100 2800 0    60   Input ~ 0
 HDMI_D6
-Text GLabel 4800 3300 0    60   Input ~ 0
+Text GLabel 3100 2700 0    60   Input ~ 0
 HDMI_D7
-Text GLabel 4800 3200 0    60   Input ~ 0
+Text GLabel 3100 2600 0    60   Input ~ 0
 HDMI_D8
-Text GLabel 4800 3100 0    60   Input ~ 0
+Text GLabel 3100 2500 0    60   Input ~ 0
 HDMI_D9
-Text GLabel 4800 3000 0    60   Input ~ 0
+Text GLabel 3100 2400 0    60   Input ~ 0
 HDMI_D10
-Text GLabel 4800 2900 0    60   Input ~ 0
+Text GLabel 3100 2300 0    60   Input ~ 0
 HDMI_D11
-Text GLabel 5600 2100 1    60   Input ~ 0
+Text GLabel 3900 1500 1    60   Input ~ 0
 HDMI_D12
-Text GLabel 5700 2100 1    60   Input ~ 0
+Text GLabel 4000 1500 1    60   Input ~ 0
 HDMI_D13
-Text GLabel 5800 2100 1    60   Input ~ 0
+Text GLabel 4100 1500 1    60   Input ~ 0
 HDMI_D14
-Text GLabel 5900 2100 1    60   Input ~ 0
+Text GLabel 4200 1500 1    60   Input ~ 0
 HDMI_D15
-Text GLabel 6000 2100 1    60   Input ~ 0
+Text GLabel 4300 1500 1    60   Input ~ 0
 HDMI_D16
-Text GLabel 6100 2100 1    60   Input ~ 0
+Text GLabel 4400 1500 1    60   Input ~ 0
 HDMI_D17
-Text GLabel 6200 2100 1    60   Input ~ 0
+Text GLabel 4500 1500 1    60   Input ~ 0
 HDMI_D18
-Text GLabel 6300 2100 1    60   Input ~ 0
+Text GLabel 4600 1500 1    60   Input ~ 0
 HDMI_D19
-Text GLabel 6400 2100 1    60   Input ~ 0
+Text GLabel 4700 1500 1    60   Input ~ 0
 HDMI_D20
-Text GLabel 6500 2100 1    60   Input ~ 0
+Text GLabel 4800 1500 1    60   Input ~ 0
 HDMI_D21
-Text GLabel 6600 2100 1    60   Input ~ 0
+Text GLabel 4900 1500 1    60   Input ~ 0
 HDMI_D22
-Text GLabel 6700 2100 1    60   Input ~ 0
+Text GLabel 5000 1500 1    60   Input ~ 0
 HDMI_D23
-Text GLabel 4800 3600 0    60   Input ~ 0
+Text GLabel 3100 3000 0    60   Input ~ 0
 HDMI_CLK
 Text GLabel 4850 6050 0    60   Input ~ 0
 HDMI_SPDIF
-Text GLabel 5800 5000 3    60   Input ~ 0
+Text GLabel 4100 4400 3    60   Input ~ 0
 HDMI_HSYNC
-Text GLabel 5900 5000 3    60   Input ~ 0
+Text GLabel 4200 4400 3    60   Input ~ 0
 HDMI_VSYNC
-Text GLabel 5600 5000 3    60   Input ~ 0
+Text GLabel 3900 4400 3    60   Input ~ 0
 HDMI_DE
-Text Notes 2950 3550 0    60   ~ 0
+Text Notes 1250 2950 0    60   ~ 0
 Page 4 of TFP410 Datasheet
 $Comp
 L GND #PWR?
 U 1 1 5C189728
-P 4800 3500
-F 0 "#PWR?" H 4800 3250 50  0001 C CNN
-F 1 "GND" H 4800 3350 50  0001 C CNN
-F 2 "" H 4800 3500 50  0001 C CNN
-F 3 "" H 4800 3500 50  0001 C CNN
-	1    4800 3500
+P 3100 2900
+F 0 "#PWR?" H 3100 2650 50  0001 C CNN
+F 1 "GND" H 3100 2750 50  0001 C CNN
+F 2 "" H 3100 2900 50  0001 C CNN
+F 3 "" H 3100 2900 50  0001 C CNN
+	1    3100 2900
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5C18B4D7
-P 4800 4300
-F 0 "#PWR?" H 4800 4050 50  0001 C CNN
-F 1 "GND" H 4800 4150 50  0001 C CNN
-F 2 "" H 4800 4300 50  0001 C CNN
-F 3 "" H 4800 4300 50  0001 C CNN
-	1    4800 4300
+P 3100 3700
+F 0 "#PWR?" H 3100 3450 50  0001 C CNN
+F 1 "GND" H 3100 3550 50  0001 C CNN
+F 2 "" H 3100 3700 50  0001 C CNN
+F 3 "" H 3100 3700 50  0001 C CNN
+	1    3100 3700
 	0    1    1    0   
 $EndComp
-Text GLabel 7000 2100 1    60   Input ~ 0
+Text GLabel 5300 1500 1    60   Input ~ 0
 VCC3V3
+$Comp
+L GND #PWR?
+U 1 1 5C18B837
+P 3800 1500
+F 0 "#PWR?" H 3800 1250 50  0001 C CNN
+F 1 "GND" H 3800 1350 50  0001 C CNN
+F 2 "" H 3800 1500 50  0001 C CNN
+F 3 "" H 3800 1500 50  0001 C CNN
+	1    3800 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C18B89C
+P 6000 2200
+F 0 "#PWR?" H 6000 1950 50  0001 C CNN
+F 1 "GND" H 6000 2050 50  0001 C CNN
+F 2 "" H 6000 2200 50  0001 C CNN
+F 3 "" H 6000 2200 50  0001 C CNN
+	1    6000 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C18B943
+P 6000 3700
+F 0 "#PWR?" H 6000 3450 50  0001 C CNN
+F 1 "GND" H 6000 3550 50  0001 C CNN
+F 2 "" H 6000 3700 50  0001 C CNN
+F 3 "" H 6000 3700 50  0001 C CNN
+	1    6000 3700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6000 3600 2    60   Input ~ 0
+VCC3V3
+$Comp
+L GND #PWR?
+U 1 1 5C18BA5F
+P 6000 3400
+F 0 "#PWR?" H 6000 3150 50  0001 C CNN
+F 1 "GND" H 6000 3250 50  0001 C CNN
+F 2 "" H 6000 3400 50  0001 C CNN
+F 3 "" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6000 3100 2    60   Input ~ 0
+VCC3V3
+Text GLabel 6000 2500 2    60   Input ~ 0
+VCC3V3
+Text GLabel 3800 4400 3    60   Input ~ 0
+VCC3V3
+$Comp
+L TFP410 J?
+U 1 1 5C18C3A5
+P 4550 2950
+F 0 "J?" H 5550 4100 50  0000 C CNN
+F 1 "TFP410" H 4550 2950 50  0000 C CNN
+F 2 "" H 5100 1550 50  0001 C CNN
+F 3 "" H 5100 1550 50  0001 C CNN
+	1    4550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C18C420
+P 6000 2800
+F 0 "#PWR?" H 6000 2550 50  0001 C CNN
+F 1 "GND" H 6000 2650 50  0001 C CNN
+F 2 "" H 6000 2800 50  0001 C CNN
+F 3 "" H 6000 2800 50  0001 C CNN
+	1    6000 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C18C485
+P 5300 4400
+F 0 "#PWR?" H 5300 4150 50  0001 C CNN
+F 1 "GND" H 5300 4250 50  0001 C CNN
+F 2 "" H 5300 4400 50  0001 C CNN
+F 3 "" H 5300 4400 50  0001 C CNN
+	1    5300 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 4400 3    60   Input ~ 0
+VCC3V3
+Text GLabel 6000 2300 2    60   Input ~ 0
+HDMI_D2_P
+Text GLabel 6000 2400 2    60   Input ~ 0
+HDMI_D2_N
+Text GLabel 6000 2600 2    60   Input ~ 0
+HDMI_D1_P
+Text GLabel 6000 2700 2    60   Input ~ 0
+HDMI_D1_N
+Text GLabel 6000 2900 2    60   Input ~ 0
+HDMI_D0_P
+Text GLabel 6000 3000 2    60   Input ~ 0
+HDMI_D0_N
+Text GLabel 6000 3200 2    60   Input ~ 0
+HDMI_CLK_P
+Text GLabel 6000 3300 2    60   Input ~ 0
+HDMI_CLK_N
+Text GLabel 9100 1400 0    60   Input ~ 0
+HDMI_D2_P
+Text GLabel 9100 1500 0    60   Input ~ 0
+HDMI_D2_N
+Text GLabel 9100 1700 0    60   Input ~ 0
+HDMI_D1_P
+Text GLabel 9100 1800 0    60   Input ~ 0
+HDMI_D1_N
+Text GLabel 9100 2000 0    60   Input ~ 0
+HDMI_D0_P
+Text GLabel 9100 2100 0    60   Input ~ 0
+HDMI_D0_N
+Text GLabel 9100 2300 0    60   Input ~ 0
+HDMI_CLK_P
+Text GLabel 9100 2400 0    60   Input ~ 0
+HDMI_CLK_N
+Text Notes 9250 1900 0    60   ~ 0
+Place HDMI connector here
+Text GLabel 9100 1200 0    60   Input ~ 0
+VCC5V5
+$Comp
+L GND #PWR?
+U 1 1 5C18DC55
+P 9100 2600
+F 0 "#PWR?" H 9100 2350 50  0001 C CNN
+F 1 "GND" H 9100 2450 50  0001 C CNN
+F 2 "" H 9100 2600 50  0001 C CNN
+F 3 "" H 9100 2600 50  0001 C CNN
+	1    9100 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L DB15_Female_HighDensity_MountingHoles J?
+U 1 1 5C18B39F
+P 8900 5000
+F 0 "J?" H 8900 5850 50  0000 C CNN
+F 1 "DB15_Female_HighDensity_MountingHoles" H 8900 5750 50  0001 C CNN
+F 2 "" H 7950 5400 50  0001 C CNN
+F 3 "" H 7950 5400 50  0001 C CNN
+	1    8900 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 4300 0    60   Input ~ 0
+VGA_R1
+Text GLabel 7650 4400 0    60   Input ~ 0
+VGA_R2
+Text GLabel 7650 4500 0    60   Input ~ 0
+VGA_R3
+Text GLabel 7650 4600 0    60   Input ~ 0
+VGA_R4
+Text GLabel 7650 4800 0    60   Input ~ 0
+VGA_G1
+Text GLabel 7650 4900 0    60   Input ~ 0
+VGA_G2
+Text GLabel 7650 5000 0    60   Input ~ 0
+VGA_G3
+Text GLabel 7650 5100 0    60   Input ~ 0
+VGA_G4
+Text GLabel 7650 5300 0    60   Input ~ 0
+VGA_B1
+Text GLabel 7650 5400 0    60   Input ~ 0
+VGA_B2
+Text GLabel 7650 5500 0    60   Input ~ 0
+VGA_B3
+Text GLabel 7650 5600 0    60   Input ~ 0
+VGA_B4
+Text GLabel 10050 5050 2    60   Input ~ 0
+VGA_HS
+Text GLabel 10050 5150 2    60   Input ~ 0
+VGA_VS
+$Comp
+L R R?
+U 1 1 5C18C1A3
+P 7900 4300
+F 0 "R?" V 7980 4300 50  0000 C CNN
+F 1 "4k" V 7900 4300 50  0000 C CNN
+F 2 "" V 7830 4300 50  0001 C CNN
+F 3 "" H 7900 4300 50  0001 C CNN
+	1    7900 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18C563
+P 8200 4400
+F 0 "R?" V 8280 4400 50  0000 C CNN
+F 1 "2k" V 8200 4400 50  0000 C CNN
+F 2 "" V 8130 4400 50  0001 C CNN
+F 3 "" H 8200 4400 50  0001 C CNN
+	1    8200 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18C88C
+P 7900 4500
+F 0 "R?" V 7980 4500 50  0000 C CNN
+F 1 "1k" V 7900 4500 50  0000 C CNN
+F 2 "" V 7830 4500 50  0001 C CNN
+F 3 "" H 7900 4500 50  0001 C CNN
+	1    7900 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18C892
+P 8200 4600
+F 0 "R?" V 8280 4600 50  0000 C CNN
+F 1 "510" V 8200 4600 50  0000 C CNN
+F 2 "" V 8130 4600 50  0001 C CNN
+F 3 "" H 8200 4600 50  0001 C CNN
+	1    8200 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18CA2A
+P 7900 4800
+F 0 "R?" V 7980 4800 50  0000 C CNN
+F 1 "4k" V 7900 4800 50  0000 C CNN
+F 2 "" V 7830 4800 50  0001 C CNN
+F 3 "" H 7900 4800 50  0001 C CNN
+	1    7900 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18CA30
+P 8200 4900
+F 0 "R?" V 8280 4900 50  0000 C CNN
+F 1 "2k" V 8200 4900 50  0000 C CNN
+F 2 "" V 8130 4900 50  0001 C CNN
+F 3 "" H 8200 4900 50  0001 C CNN
+	1    8200 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18CA3A
+P 7900 5000
+F 0 "R?" V 7980 5000 50  0000 C CNN
+F 1 "1k" V 7900 5000 50  0000 C CNN
+F 2 "" V 7830 5000 50  0001 C CNN
+F 3 "" H 7900 5000 50  0001 C CNN
+	1    7900 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18CA40
+P 8200 5100
+F 0 "R?" V 8280 5100 50  0000 C CNN
+F 1 "510" V 8200 5100 50  0000 C CNN
+F 2 "" V 8130 5100 50  0001 C CNN
+F 3 "" H 8200 5100 50  0001 C CNN
+	1    8200 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18CBB4
+P 7900 5300
+F 0 "R?" V 7980 5300 50  0000 C CNN
+F 1 "4k" V 7900 5300 50  0000 C CNN
+F 2 "" V 7830 5300 50  0001 C CNN
+F 3 "" H 7900 5300 50  0001 C CNN
+	1    7900 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18CBBA
+P 8200 5400
+F 0 "R?" V 8280 5400 50  0000 C CNN
+F 1 "2k" V 8200 5400 50  0000 C CNN
+F 2 "" V 8130 5400 50  0001 C CNN
+F 3 "" H 8200 5400 50  0001 C CNN
+	1    8200 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18CBC4
+P 7900 5500
+F 0 "R?" V 7980 5500 50  0000 C CNN
+F 1 "1k" V 7900 5500 50  0000 C CNN
+F 2 "" V 7830 5500 50  0001 C CNN
+F 3 "" H 7900 5500 50  0001 C CNN
+	1    7900 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18CBCA
+P 8200 5600
+F 0 "R?" V 8280 5600 50  0000 C CNN
+F 1 "510" V 8200 5600 50  0000 C CNN
+F 2 "" V 8130 5600 50  0001 C CNN
+F 3 "" H 8200 5600 50  0001 C CNN
+	1    8200 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18CCA0
+P 9800 5050
+F 0 "R?" V 9880 5050 50  0000 C CNN
+F 1 "100" V 9800 5050 50  0000 C CNN
+F 2 "" V 9730 5050 50  0001 C CNN
+F 3 "" H 9800 5050 50  0001 C CNN
+	1    9800 5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C18CCA6
+P 9500 5150
+F 0 "R?" V 9580 5150 50  0000 C CNN
+F 1 "100" V 9500 5150 50  0000 C CNN
+F 2 "" V 9430 5150 50  0001 C CNN
+F 3 "" H 9500 5150 50  0001 C CNN
+	1    9500 5150
+	0    -1   1    0   
+$EndComp
+NoConn ~ 8600 5200
+NoConn ~ 8600 5100
+NoConn ~ 9200 4600
+NoConn ~ 9200 4800
+NoConn ~ 9200 5400
 Wire Wire Line
 	1700 4500 1600 4500
 Wire Wire Line
@@ -686,138 +1018,116 @@ Wire Wire Line
 	1700 7300 1600 7300
 Wire Wire Line
 	2000 7300 2400 7300
+Wire Wire Line
+	7750 4300 7650 4300
+Wire Wire Line
+	7650 4400 8050 4400
+Wire Wire Line
+	8050 4300 8450 4300
+Wire Wire Line
+	8350 4400 8450 4400
+Wire Wire Line
+	7750 4500 7650 4500
+Wire Wire Line
+	7650 4600 8050 4600
+Wire Wire Line
+	8450 4500 8050 4500
+Wire Wire Line
+	8350 4600 8600 4600
+Wire Wire Line
+	7750 4800 7650 4800
+Wire Wire Line
+	7650 4900 8050 4900
+Wire Wire Line
+	8050 4800 8600 4800
+Wire Wire Line
+	8350 4900 8450 4900
+Wire Wire Line
+	7750 5000 7650 5000
+Wire Wire Line
+	7650 5100 8050 5100
+Wire Wire Line
+	8450 5000 8050 5000
+Wire Wire Line
+	8450 5100 8350 5100
+Wire Wire Line
+	7750 5300 7650 5300
+Wire Wire Line
+	7650 5400 8050 5400
+Wire Wire Line
+	8050 5300 8500 5300
+Wire Wire Line
+	8350 5400 8450 5400
+Wire Wire Line
+	7750 5500 7650 5500
+Wire Wire Line
+	7650 5600 8050 5600
+Wire Wire Line
+	8450 5500 8050 5500
+Wire Wire Line
+	8450 5600 8350 5600
+Wire Wire Line
+	9950 5050 10050 5050
+Wire Wire Line
+	10050 5150 9650 5150
+Wire Wire Line
+	9650 5050 9250 5050
+Wire Wire Line
+	9350 5150 9250 5150
+Wire Wire Line
+	9250 5050 9250 5000
+Wire Wire Line
+	9250 5000 9200 5000
+Wire Wire Line
+	9250 5150 9250 5200
+Wire Wire Line
+	9250 5200 9200 5200
+Wire Wire Line
+	8450 4300 8450 4600
+Connection ~ 8450 4400
+Connection ~ 8450 4500
+Wire Wire Line
+	8450 4800 8450 5100
+Connection ~ 8450 4900
+Connection ~ 8450 5000
+Wire Wire Line
+	8450 5300 8450 5600
+Connection ~ 8450 5400
+Connection ~ 8450 5500
+Connection ~ 8450 4600
+Connection ~ 8450 4800
+Wire Wire Line
+	8500 5300 8500 5000
+Wire Wire Line
+	8500 5000 8600 5000
+Connection ~ 8450 5300
+Wire Wire Line
+	8600 4500 8550 4500
+Wire Wire Line
+	8550 4500 8550 5700
+Wire Wire Line
+	8550 4700 8600 4700
+Wire Wire Line
+	8550 4900 8600 4900
+Connection ~ 8550 4700
+Wire Wire Line
+	8550 5300 8600 5300
+Connection ~ 8550 4900
+Wire Wire Line
+	8550 5400 8600 5400
+Connection ~ 8550 5300
+Wire Wire Line
+	8550 5700 8900 5700
+Connection ~ 8550 5400
 $Comp
 L GND #PWR?
-U 1 1 5C18B837
-P 5500 2100
-F 0 "#PWR?" H 5500 1850 50  0001 C CNN
-F 1 "GND" H 5500 1950 50  0001 C CNN
-F 2 "" H 5500 2100 50  0001 C CNN
-F 3 "" H 5500 2100 50  0001 C CNN
-	1    5500 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5C18B89C
-P 7700 2800
-F 0 "#PWR?" H 7700 2550 50  0001 C CNN
-F 1 "GND" H 7700 2650 50  0001 C CNN
-F 2 "" H 7700 2800 50  0001 C CNN
-F 3 "" H 7700 2800 50  0001 C CNN
-	1    7700 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5C18B943
-P 7700 4300
-F 0 "#PWR?" H 7700 4050 50  0001 C CNN
-F 1 "GND" H 7700 4150 50  0001 C CNN
-F 2 "" H 7700 4300 50  0001 C CNN
-F 3 "" H 7700 4300 50  0001 C CNN
-	1    7700 4300
-	0    -1   -1   0   
-$EndComp
-Text GLabel 7700 4200 2    60   Input ~ 0
-VCC3V3
-$Comp
-L GND #PWR?
-U 1 1 5C18BA5F
-P 7700 4000
-F 0 "#PWR?" H 7700 3750 50  0001 C CNN
-F 1 "GND" H 7700 3850 50  0001 C CNN
-F 2 "" H 7700 4000 50  0001 C CNN
-F 3 "" H 7700 4000 50  0001 C CNN
-	1    7700 4000
-	0    -1   -1   0   
-$EndComp
-Text GLabel 7700 3700 2    60   Input ~ 0
-VCC3V3
-Text GLabel 7700 3100 2    60   Input ~ 0
-VCC3V3
-Text GLabel 5500 5000 3    60   Input ~ 0
-VCC3V3
-$Comp
-L TFP410 J?
-U 1 1 5C18C3A5
-P 6250 3550
-F 0 "J?" H 7250 4700 50  0000 C CNN
-F 1 "TFP410" H 6250 3550 50  0000 C CNN
-F 2 "" H 6800 2150 50  0001 C CNN
-F 3 "" H 6800 2150 50  0001 C CNN
-	1    6250 3550
+U 1 1 5C18E2D3
+P 8900 5700
+F 0 "#PWR?" H 8900 5450 50  0001 C CNN
+F 1 "GND" H 8900 5550 50  0001 C CNN
+F 2 "" H 8900 5700 50  0001 C CNN
+F 3 "" H 8900 5700 50  0001 C CNN
+	1    8900 5700
 	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5C18C420
-P 7700 3400
-F 0 "#PWR?" H 7700 3150 50  0001 C CNN
-F 1 "GND" H 7700 3250 50  0001 C CNN
-F 2 "" H 7700 3400 50  0001 C CNN
-F 3 "" H 7700 3400 50  0001 C CNN
-	1    7700 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5C18C485
-P 7000 5000
-F 0 "#PWR?" H 7000 4750 50  0001 C CNN
-F 1 "GND" H 7000 4850 50  0001 C CNN
-F 2 "" H 7000 5000 50  0001 C CNN
-F 3 "" H 7000 5000 50  0001 C CNN
-	1    7000 5000
-	1    0    0    -1  
-$EndComp
-Text GLabel 6600 5000 3    60   Input ~ 0
-VCC3V3
-Text GLabel 7700 2900 2    60   Input ~ 0
-HDMI_D2_P
-Text GLabel 7700 3000 2    60   Input ~ 0
-HDMI_D2_N
-Text GLabel 7700 3200 2    60   Input ~ 0
-HDMI_D1_P
-Text GLabel 7700 3300 2    60   Input ~ 0
-HDMI_D1_N
-Text GLabel 7700 3500 2    60   Input ~ 0
-HDMI_D0_P
-Text GLabel 7700 3600 2    60   Input ~ 0
-HDMI_D0_N
-Text GLabel 7700 3800 2    60   Input ~ 0
-HDMI_CLK_P
-Text GLabel 7700 3900 2    60   Input ~ 0
-HDMI_CLK_N
-Text GLabel 9100 4650 0    60   Input ~ 0
-HDMI_D2_P
-Text GLabel 9100 4750 0    60   Input ~ 0
-HDMI_D2_N
-Text GLabel 9100 4950 0    60   Input ~ 0
-HDMI_D1_P
-Text GLabel 9100 5050 0    60   Input ~ 0
-HDMI_D1_N
-Text GLabel 9100 5250 0    60   Input ~ 0
-HDMI_D0_P
-Text GLabel 9100 5350 0    60   Input ~ 0
-HDMI_D0_N
-Text GLabel 9100 5550 0    60   Input ~ 0
-HDMI_CLK_P
-Text GLabel 9100 5650 0    60   Input ~ 0
-HDMI_CLK_N
-Text Notes 9250 5150 0    60   ~ 0
-Place HDMI connector here
-Text GLabel 9100 4450 0    60   Input ~ 0
-VCC5V5
-$Comp
-L GND #PWR?
-U 1 1 5C18DC55
-P 9100 5850
-F 0 "#PWR?" H 9100 5600 50  0001 C CNN
-F 1 "GND" H 9100 5700 50  0001 C CNN
-F 2 "" H 9100 5850 50  0001 C CNN
-F 3 "" H 9100 5850 50  0001 C CNN
-	1    9100 5850
-	0    1    1    0   
 $EndComp
 $EndSCHEMATC

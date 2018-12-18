@@ -321,4 +321,32 @@ Text GLabel 3150 3000 2    60   Input ~ 0
 SYSCLK_N
 Text GLabel 3150 3100 2    60   Input ~ 0
 SYSCLK_P
+Text GLabel 6300 1400 2    60   Input ~ 0
+VGA_R1
+Text GLabel 6300 1500 2    60   Input ~ 0
+VGA_R2
+Text GLabel 6300 1600 2    60   Input ~ 0
+VGA_R3
+Text GLabel 6300 1700 2    60   Input ~ 0
+VGA_R4
+Text GLabel 6300 1800 2    60   Input ~ 0
+VGA_G1
+Text GLabel 6300 1900 2    60   Input ~ 0
+VGA_G2
+Text GLabel 6300 2000 2    60   Input ~ 0
+VGA_G3
+Text GLabel 6300 2100 2    60   Input ~ 0
+VGA_G4
+Text GLabel 6300 2200 2    60   Input ~ 0
+VGA_B1
+Text GLabel 6300 2300 2    60   Input ~ 0
+VGA_B2
+Text GLabel 6300 2400 2    60   Input ~ 0
+VGA_B3
+Text GLabel 6300 2500 2    60   Input ~ 0
+VGA_B4
+Text GLabel 6300 2600 2    60   Input ~ 0
+VGA_HS
+Text GLabel 6300 2700 2    60   Input ~ 0
+VGA_VS
 $EndSCHEMATC
