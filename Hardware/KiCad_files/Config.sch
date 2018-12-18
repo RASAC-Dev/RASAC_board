@@ -253,25 +253,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 4300 3850 4300
 Wire Wire Line
-	3950 2700 3950 2800
-Wire Wire Line
-	3950 2800 3950 2900
-Wire Wire Line
-	3950 2900 3950 3000
-Wire Wire Line
-	3950 3000 3950 3100
-Wire Wire Line
-	3950 3100 3950 3200
-Wire Wire Line
-	3950 3200 3950 3300
-Wire Wire Line
-	3950 3300 3950 4300
-Wire Wire Line
-	3950 4300 3950 4500
-Wire Wire Line
-	3950 4500 3950 4600
-Wire Wire Line
-	3950 4600 3950 4700
+	3950 2700 3950 4700
 Wire Wire Line
 	3850 2700 3950 2700
 Connection ~ 3950 4300
@@ -304,22 +286,16 @@ Wire Wire Line
 	3850 4600 3950 4600
 Connection ~ 3950 4600
 Wire Wire Line
-	3850 4400 4050 4400
-Wire Wire Line
-	4050 4400 4150 4400
+	3850 4400 4150 4400
 Wire Wire Line
 	3850 4200 4050 4200
 Wire Wire Line
 	4050 4200 4050 4400
 Connection ~ 4050 4400
 Wire Wire Line
-	4800 3950 4800 4000
+	4800 3950 4800 4150
 Wire Wire Line
-	4800 4000 4800 4150
-Wire Wire Line
-	5100 3950 5100 4100
-Wire Wire Line
-	5100 4100 5100 4150
+	5100 3950 5100 4150
 Wire Wire Line
 	3850 4000 4800 4000
 Wire Wire Line
@@ -333,9 +309,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 4650 5400 4650
 Wire Wire Line
-	5400 4600 5400 4650
-Wire Wire Line
-	5400 4650 5400 4700
+	5400 4600 5400 4700
 Connection ~ 5400 4650
 Wire Wire Line
 	4050 3400 3850 3400
@@ -346,15 +320,7 @@ Wire Wire Line
 	3850 3100 3950 3100
 Connection ~ 3950 3100
 Wire Wire Line
-	7150 2700 7350 2700
-Wire Wire Line
-	7350 2700 8650 2700
-Wire Wire Line
-	8650 2700 8800 2700
-Wire Wire Line
-	8800 2700 9000 2700
-Wire Wire Line
-	9000 2700 9100 2700
+	7150 2700 9100 2700
 $Comp
 L R R?
 U 1 1 5C09583F
@@ -411,9 +377,7 @@ F 3 "" H 8850 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8600 3200 8650 3200
-Wire Wire Line
-	8650 3200 8700 3200
+	8600 3200 8700 3200
 Wire Wire Line
 	8600 3400 8700 3400
 Wire Wire Line
@@ -421,9 +385,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 3200 7400 3200
 Wire Wire Line
-	7300 3300 7350 3300
-Wire Wire Line
-	7350 3300 7400 3300
+	7300 3300 7400 3300
 Wire Wire Line
 	8650 3200 8650 3050
 Connection ~ 8650 3200
@@ -486,9 +448,7 @@ Connection ~ 9000 2700
 Text GLabel 6950 3100 0    60   Input ~ 0
 FCS_B
 Wire Wire Line
-	6950 3100 7150 3100
-Wire Wire Line
-	7150 3100 7400 3100
+	6950 3100 7400 3100
 $Comp
 L R R?
 U 1 1 5C106A7C
@@ -513,9 +473,7 @@ VCC3V3
 Wire Wire Line
 	8550 4200 8550 4450
 Wire Wire Line
-	7300 4200 7450 4200
-Wire Wire Line
-	7450 4200 8550 4200
+	7300 4200 8550 4200
 Wire Wire Line
 	7450 4200 7450 4450
 $Comp
@@ -607,9 +565,7 @@ $EndComp
 Wire Wire Line
 	7200 5800 7500 5800
 Wire Wire Line
-	7200 5400 7500 5400
-Wire Wire Line
-	7500 5400 8400 5400
+	7200 5400 8400 5400
 Wire Wire Line
 	8400 5400 8400 5600
 Wire Wire Line
@@ -628,9 +584,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 5700 8500 5600
 Wire Wire Line
-	8500 5600 8600 5600
-Wire Wire Line
-	8600 5600 8750 5600
+	8500 5600 8750 5600
 $Comp
 L R R?
 U 1 1 5C177A55
@@ -647,9 +601,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 5800 8500 5900
 Wire Wire Line
-	8500 5900 8600 5900
-Wire Wire Line
-	8600 5900 8750 5900
+	8500 5900 8750 5900
 Wire Wire Line
 	8750 5600 8750 5700
 Wire Wire Line

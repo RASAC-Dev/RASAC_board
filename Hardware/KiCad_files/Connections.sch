@@ -207,67 +207,67 @@ Wire Wire Line
 	7500 5450 7600 5450
 Connection ~ 7500 5450
 Text GLabel 3150 3300 2    60   Input ~ 0
-HDMI_R_D21
+HDMI_R_D0
 Text GLabel 3150 3400 2    60   Input ~ 0
-HDMI_R_D16
+HDMI_R_D1
 Text GLabel 3150 3500 2    60   Input ~ 0
-HDMI_R_D11
+HDMI_R_D2
 Text GLabel 3150 3600 2    60   Input ~ 0
-HDMI_R_D7
+HDMI_R_D3
 Text GLabel 3150 3700 2    60   Input ~ 0
-HDMI_R_D8
-Text GLabel 3150 3800 2    60   Input ~ 0
-HDMI_R_DE
-Text GLabel 3150 3900 2    60   Input ~ 0
-HDMI_R_VSYNC
-Text GLabel 3150 4000 2    60   Input ~ 0
-HDMI_R_D9
-Text GLabel 3150 4100 2    60   Input ~ 0
-HDMI_R_D6
-Text GLabel 3150 4200 2    60   Input ~ 0
-HDMI_R_D5
-Text GLabel 3150 4300 2    60   Input ~ 0
-HDMI_R_D29
-Text GLabel 3150 4400 2    60   Input ~ 0
-HDMI_R_D17
-Text GLabel 3150 4500 2    60   Input ~ 0
-HDMI_R_D10
-Text GLabel 3150 4600 2    60   Input ~ 0
 HDMI_R_D4
+Text GLabel 3150 3800 2    60   Input ~ 0
+HDMI_R_D5
+Text GLabel 3150 3900 2    60   Input ~ 0
+HDMI_R_D6
+Text GLabel 3150 4000 2    60   Input ~ 0
+HDMI_R_D7
+Text GLabel 3150 4100 2    60   Input ~ 0
+HDMI_R_D8
+Text GLabel 3150 4200 2    60   Input ~ 0
+HDMI_R_D9
+Text GLabel 3150 4300 2    60   Input ~ 0
+HDMI_R_D10
+Text GLabel 3150 4400 2    60   Input ~ 0
+HDMI_R_D11
+Text GLabel 3150 4500 2    60   Input ~ 0
+HDMI_R_D12
+Text GLabel 3150 4600 2    60   Input ~ 0
+HDMI_R_D13
 Text GLabel 3150 4700 2    60   Input ~ 0
-HDMI_R_D30
+HDMI_R_D14
 Text GLabel 3150 4800 2    60   Input ~ 0
-HDMI_R_HSYNC
+HDMI_R_D15
 Text GLabel 3150 4900 2    60   Input ~ 0
-HDMI_R_D28
+HDMI_R_D16
 Text GLabel 3150 5000 2    60   Input ~ 0
-HDMI_R_D32
+HDMI_R_D17
 Text GLabel 3150 5100 2    60   Input ~ 0
-HDMI_R_D31
+HDMI_R_D18
 Text GLabel 3150 5200 2    60   Input ~ 0
-HDMI_R_D23
-Text GLabel 3150 5300 2    60   Input ~ 0
 HDMI_R_D19
+Text GLabel 3150 5300 2    60   Input ~ 0
+HDMI_R_D20
 Text GLabel 3150 5400 2    60   Input ~ 0
-HDMI_R_D33
+HDMI_R_D21
 Text GLabel 3150 5500 2    60   Input ~ 0
-HDMI_R_D34
+HDMI_R_D22
 Text GLabel 3150 5600 2    60   Input ~ 0
-HDMI_R_D35
+HDMI_R_D23
 Text GLabel 3150 5700 2    60   Input ~ 0
 HDMI_R_CLK
-Text GLabel 3150 5800 2    60   Input ~ 0
-HDMI_INT
-Text GLabel 3150 5900 2    60   Input ~ 0
-HDMI_R_SPDIF
-Text GLabel 3150 6000 2    60   Input ~ 0
-HDMI_SPDIF_OUT_LS
-Text GLabel 3150 6100 2    60   Input ~ 0
-HDMI_R_D18
-Text GLabel 3150 6200 2    60   Input ~ 0
-HDMI_R_D20
 Text GLabel 3150 6300 2    60   Input ~ 0
-HDMI_R_D22
+HDMI_INT
+Text GLabel 3150 6100 2    60   Input ~ 0
+HDMI_R_SPDIF
+Text GLabel 3150 6200 2    60   Input ~ 0
+HDMI_SPDIF_OUT_LS
+Text GLabel 3150 5800 2    60   Input ~ 0
+HDMI_R_HSYNC
+Text GLabel 3150 5900 2    60   Input ~ 0
+HDMI_R_VSYNC
+Text GLabel 3150 6000 2    60   Input ~ 0
+HDMI_R_DE
 Text GLabel 3150 2100 2    60   Input ~ 0
 TTL_TxD1
 Text GLabel 3150 2200 2    60   Input ~ 0
