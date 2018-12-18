@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 10
 Title "Reconfigurable Application-Specific Accelerator Card"
 Date "2018-11-27"
 Rev "1.0"
@@ -98,25 +98,7 @@ F0 "DDR4_2" 60
 F1 "DDR4_2.sch" 60
 $EndSheet
 $Sheet
-S 8300 2450 1450 950 
-U 5C14BDED
-F0 "DDR4_3" 60
-F1 "DDR4_3.sch" 60
-$EndSheet
-$Sheet
-S 3000 3800 1400 900 
-U 5C14CE40
-F0 "DDR4_4" 60
-F1 "DDR4_4.sch" 60
-$EndSheet
-$Sheet
-S 4700 3800 1550 900 
-U 5C14DE5B
-F0 "DDR4_things" 60
-F1 "DDR4_things.sch" 60
-$EndSheet
-$Sheet
-S 6500 3800 1550 900 
+S 8300 2450 1550 900 
 U 5C14F3D5
 F0 "HDMI_VGA" 60
 F1 "HDMI_VGA.sch" 60

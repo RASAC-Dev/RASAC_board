@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 13
+Sheet 7 10
 Title "Reconfigurable Application-Specific Accelerator Card"
 Date "2018-11-27"
 Rev "1.0"
@@ -349,4 +349,152 @@ Text GLabel 6300 2600 2    60   Input ~ 0
 VGA_HS
 Text GLabel 6300 2700 2    60   Input ~ 0
 VGA_VS
+Text GLabel 6300 2800 2    60   Input ~ 0
+DDR4_A0
+Text GLabel 6300 2900 2    60   Input ~ 0
+DDR4_A1
+Text GLabel 6300 3000 2    60   Input ~ 0
+DDR4_A2
+Text GLabel 6300 3100 2    60   Input ~ 0
+DDR4_A3
+Text GLabel 6300 3200 2    60   Input ~ 0
+DDR4_A4
+Text GLabel 6300 3300 2    60   Input ~ 0
+DDR4_A5
+Text GLabel 6300 3400 2    60   Input ~ 0
+DDR4_A6
+Text GLabel 6300 3500 2    60   Input ~ 0
+DDR4_A7
+Text GLabel 6300 3600 2    60   Input ~ 0
+DDR4_A8
+Text GLabel 6300 3700 2    60   Input ~ 0
+DDR4_A9
+Text GLabel 6300 3800 2    60   Input ~ 0
+DDR4_A10
+Text GLabel 6300 3900 2    60   Input ~ 0
+DDR4_A11
+Text GLabel 6300 4000 2    60   Input ~ 0
+DDR4_A12
+Text GLabel 6300 4100 2    60   Input ~ 0
+DDR4_A13
+Text GLabel 6300 4200 2    60   Input ~ 0
+DDR4_A14_WE_B
+Text GLabel 6300 4300 2    60   Input ~ 0
+DDR4_A15_CAS_B
+Text GLabel 6300 4400 2    60   Input ~ 0
+DDR4_A16_RAS_B
+Text GLabel 6300 4500 2    60   Input ~ 0
+DDR4_BA0
+Text GLabel 6300 4600 2    60   Input ~ 0
+DDR4_BA1
+Text GLabel 6300 4700 2    60   Input ~ 0
+DDR4_BG0
+Text GLabel 6300 4800 2    60   Input ~ 0
+DDR4_CK_T
+Text GLabel 6300 4900 2    60   Input ~ 0
+DDR4_CK_C
+Text GLabel 6300 5000 2    60   Input ~ 0
+DDR4_CKE
+Text GLabel 6300 5100 2    60   Input ~ 0
+DDR4_ACT_N
+Text GLabel 6300 5200 2    60   Input ~ 0
+DDR4_TEN
+Text GLabel 6300 5300 2    60   Input ~ 0
+DDR4_ALERT_N
+Text GLabel 6300 5400 2    60   Input ~ 0
+DDR4_PAR
+Text GLabel 6300 5500 2    60   Input ~ 0
+DDR4_RESET_N
+Text GLabel 6300 5600 2    60   Input ~ 0
+DDR4_ODT
+Text GLabel 6300 5700 2    60   Input ~ 0
+DDR4_CS_N
+Text GLabel 9000 950  2    60   Input ~ 0
+DDR4_DQ0
+Text GLabel 9000 1050 2    60   Input ~ 0
+DDR4_DQ1
+Text GLabel 9000 1150 2    60   Input ~ 0
+DDR4_DQ2
+Text GLabel 9000 1250 2    60   Input ~ 0
+DDR4_DQ3
+Text GLabel 9000 1350 2    60   Input ~ 0
+DDR4_DQ4
+Text GLabel 9000 1450 2    60   Input ~ 0
+DDR4_DQ5
+Text GLabel 9000 1550 2    60   Input ~ 0
+DDR4_DQ6
+Text GLabel 9000 1650 2    60   Input ~ 0
+DDR4_DQ7
+Text GLabel 9000 1750 2    60   Input ~ 0
+DDR4_DQ8
+Text GLabel 9000 1850 2    60   Input ~ 0
+DDR4_DQ9
+Text GLabel 9000 1950 2    60   Input ~ 0
+DDR4_DQ10
+Text GLabel 9000 2050 2    60   Input ~ 0
+DDR4_DQ11
+Text GLabel 9000 2150 2    60   Input ~ 0
+DDR4_DQ12
+Text GLabel 9000 2250 2    60   Input ~ 0
+DDR4_DQ13
+Text GLabel 9000 2350 2    60   Input ~ 0
+DDR4_DQ14
+Text GLabel 9000 2450 2    60   Input ~ 0
+DDR4_DQ15
+Text GLabel 9000 4150 2    60   Input ~ 0
+DDR4_DQS0_T
+Text GLabel 9000 4250 2    60   Input ~ 0
+DDR4_DQS0_C
+Text GLabel 9000 4350 2    60   Input ~ 0
+DDR4_DQS1_T
+Text GLabel 9000 4450 2    60   Input ~ 0
+DDR4_DQS1_C
+Text GLabel 6300 5800 2    60   Input ~ 0
+DDR4_DM0
+Text GLabel 6300 5900 2    60   Input ~ 0
+DDR4_DM1
+Text GLabel 9000 2550 2    60   Input ~ 0
+DDR4_DQ16
+Text GLabel 9000 2650 2    60   Input ~ 0
+DDR4_DQ17
+Text GLabel 9000 2750 2    60   Input ~ 0
+DDR4_DQ18
+Text GLabel 9000 2850 2    60   Input ~ 0
+DDR4_DQ19
+Text GLabel 9000 2950 2    60   Input ~ 0
+DDR4_DQ20
+Text GLabel 9000 3050 2    60   Input ~ 0
+DDR4_DQ21
+Text GLabel 9000 3150 2    60   Input ~ 0
+DDR4_DQ22
+Text GLabel 9000 3250 2    60   Input ~ 0
+DDR4_DQ23
+Text GLabel 9000 3350 2    60   Input ~ 0
+DDR4_DQ24
+Text GLabel 9000 3450 2    60   Input ~ 0
+DDR4_DQ25
+Text GLabel 9000 3550 2    60   Input ~ 0
+DDR4_DQ26
+Text GLabel 9000 3650 2    60   Input ~ 0
+DDR4_DQ27
+Text GLabel 9000 3750 2    60   Input ~ 0
+DDR4_DQ28
+Text GLabel 9000 3850 2    60   Input ~ 0
+DDR4_DQ29
+Text GLabel 9000 3950 2    60   Input ~ 0
+DDR4_DQ30
+Text GLabel 9000 4050 2    60   Input ~ 0
+DDR4_DQ31
+Text GLabel 9000 4550 2    60   Input ~ 0
+DDR4_DQS2_T
+Text GLabel 9000 4650 2    60   Input ~ 0
+DDR4_DQS2_C
+Text GLabel 9000 4750 2    60   Input ~ 0
+DDR4_DQS3_T
+Text GLabel 9000 4850 2    60   Input ~ 0
+DDR4_DQS3_C
+Text GLabel 6300 6000 2    60   Input ~ 0
+DDR4_DM2
+Text GLabel 6300 6100 2    60   Input ~ 0
+DDR4_DM3
 $EndSCHEMATC
