@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:custom
+LIBS:Connector
 LIBS:RASAC-cache
 EELAYER 25 0
 EELAYER END
@@ -652,36 +653,34 @@ Text GLabel 6000 3200 2    60   Input ~ 0
 HDMI_CLK_P
 Text GLabel 6000 3300 2    60   Input ~ 0
 HDMI_CLK_N
-Text GLabel 8000 2300 0    60   Input ~ 0
+Text GLabel 8100 1900 0    60   Input ~ 0
 HDMI_D2_P
-Text GLabel 8000 2400 0    60   Input ~ 0
+Text GLabel 8100 2000 0    60   Input ~ 0
 HDMI_D2_N
-Text GLabel 8000 2600 0    60   Input ~ 0
+Text GLabel 8100 2100 0    60   Input ~ 0
 HDMI_D1_P
-Text GLabel 8000 2700 0    60   Input ~ 0
+Text GLabel 8100 2200 0    60   Input ~ 0
 HDMI_D1_N
-Text GLabel 8000 2900 0    60   Input ~ 0
+Text GLabel 8100 2300 0    60   Input ~ 0
 HDMI_D0_P
-Text GLabel 8000 3000 0    60   Input ~ 0
+Text GLabel 8100 2400 0    60   Input ~ 0
 HDMI_D0_N
-Text GLabel 8000 3200 0    60   Input ~ 0
+Text GLabel 8100 2500 0    60   Input ~ 0
 HDMI_CLK_P
-Text GLabel 8000 3300 0    60   Input ~ 0
+Text GLabel 8100 2600 0    60   Input ~ 0
 HDMI_CLK_N
-Text Notes 8150 2800 0    60   ~ 0
-Place HDMI connector here
-Text GLabel 8000 2100 0    60   Input ~ 0
+Text GLabel 8500 1600 1    60   Input ~ 0
 VCC5V5
 $Comp
 L GND #PWR112
 U 1 1 5C18DC55
-P 8000 3500
-F 0 "#PWR112" H 8000 3250 50  0001 C CNN
-F 1 "GND" H 8000 3350 50  0001 C CNN
-F 2 "" H 8000 3500 50  0001 C CNN
-F 3 "" H 8000 3500 50  0001 C CNN
-	1    8000 3500
-	0    1    1    0   
+P 8700 3800
+F 0 "#PWR112" H 8700 3550 50  0001 C CNN
+F 1 "GND" H 8700 3650 50  0001 C CNN
+F 2 "" H 8700 3800 50  0001 C CNN
+F 3 "" H 8700 3800 50  0001 C CNN
+	1    8700 3800
+	1    0    0    -1  
 $EndComp
 $Comp
 L DB15_Female_HighDensity_MountingHoles J8
@@ -1107,4 +1106,16 @@ F 3 "" H 8900 5700 50  0001 C CNN
 $EndComp
 Text GLabel 5000 4600 3    60   Input ~ 0
 HDMI_INT
+NoConn ~ 5200 1500
+$Comp
+L HDMI_A_1.4 J?
+U 1 1 5C47F6C9
+P 8500 2700
+F 0 "J?" H 8250 3750 50  0000 C CNN
+F 1 "HDMI_A_1.4" H 8900 3750 50  0000 C CNN
+F 2 "" H 8525 2700 50  0001 C CNN
+F 3 "" H 8525 2700 50  0001 C CNN
+	1    8500 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

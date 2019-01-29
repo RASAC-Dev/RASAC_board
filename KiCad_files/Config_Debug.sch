@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:custom
+LIBS:Connector
 LIBS:RASAC-cache
 EELAYER 25 0
 EELAYER END
