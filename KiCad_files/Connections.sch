@@ -1,40 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:custom
-LIBS:Connector
+EESchema Schematic File Version 4
 LIBS:RASAC-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -63,9 +29,9 @@ D02
 Text GLabel 3200 1500 2    60   Input ~ 0
 D03
 Wire Wire Line
-	1000 5400 1200 5400
+	1000 5400 1100 5400
 Wire Wire Line
-	1100 5400 1100 6000
+	1100 5400 1100 5500
 Wire Wire Line
 	1100 6000 1200 6000
 Connection ~ 1100 5400
@@ -85,7 +51,7 @@ Wire Wire Line
 	1200 5500 1100 5500
 Connection ~ 1100 5500
 $Comp
-L C C86
+L Device:C C86
 U 1 1 5C113469
 P 1300 7200
 F 0 "C86" H 1325 7300 50  0000 L CNN
@@ -98,10 +64,10 @@ $EndComp
 Text GLabel 1300 7050 1    60   Input ~ 0
 VCCO
 $Comp
-L GND #PWR91
+L power:GND #PWR091
 U 1 1 5C113471
 P 1300 7350
-F 0 "#PWR91" H 1300 7100 50  0001 C CNN
+F 0 "#PWR091" H 1300 7100 50  0001 C CNN
 F 1 "GND" H 1300 7200 50  0001 C CNN
 F 2 "" H 1300 7350 50  0001 C CNN
 F 3 "" H 1300 7350 50  0001 C CNN
@@ -117,9 +83,9 @@ VCCO
 Text GLabel 4500 5400 0    60   Input ~ 0
 VCCO
 Wire Wire Line
-	4500 5400 4700 5400
+	4500 5400 4600 5400
 $Comp
-L C C87
+L Device:C C87
 U 1 1 5C13C2A0
 P 1900 7200
 F 0 "C87" H 1925 7300 50  0000 L CNN
@@ -132,10 +98,10 @@ $EndComp
 Text GLabel 1900 7050 1    60   Input ~ 0
 VCCO
 $Comp
-L GND #PWR92
+L power:GND #PWR092
 U 1 1 5C13C2A8
 P 1900 7350
-F 0 "#PWR92" H 1900 7100 50  0001 C CNN
+F 0 "#PWR092" H 1900 7100 50  0001 C CNN
 F 1 "GND" H 1900 7200 50  0001 C CNN
 F 2 "" H 1900 7350 50  0001 C CNN
 F 3 "" H 1900 7350 50  0001 C CNN
@@ -145,9 +111,9 @@ $EndComp
 Text GLabel 7800 5500 0    60   Input ~ 0
 VCCO
 Wire Wire Line
-	7800 5500 8000 5500
+	7800 5500 7900 5500
 $Comp
-L C C88
+L Device:C C88
 U 1 1 5C13C2B0
 P 2500 7200
 F 0 "C88" H 2525 7300 50  0000 L CNN
@@ -160,10 +126,10 @@ $EndComp
 Text GLabel 2500 7050 1    60   Input ~ 0
 VCCO
 $Comp
-L GND #PWR93
+L power:GND #PWR093
 U 1 1 5C13C2B8
 P 2500 7350
-F 0 "#PWR93" H 2500 7100 50  0001 C CNN
+F 0 "#PWR093" H 2500 7100 50  0001 C CNN
 F 1 "GND" H 2500 7200 50  0001 C CNN
 F 2 "" H 2500 7350 50  0001 C CNN
 F 3 "" H 2500 7350 50  0001 C CNN
@@ -171,7 +137,7 @@ F 3 "" H 2500 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 5400 4600 6000
+	4600 5400 4600 5500
 Wire Wire Line
 	4600 6000 4700 6000
 Connection ~ 4600 5400
@@ -191,7 +157,7 @@ Wire Wire Line
 	4700 5500 4600 5500
 Connection ~ 4600 5500
 Wire Wire Line
-	7900 5500 7900 6000
+	7900 5500 7900 5600
 Wire Wire Line
 	7900 6000 8000 6000
 Connection ~ 7900 5500
@@ -282,7 +248,7 @@ TTL_DCD1
 Text GLabel 3200 2900 2    60   Input ~ 0
 TTL_RI1
 $Comp
-L XC7A35T_CSG325 U1
+L custom:XC7A35T_CSG325 U1
 U 2 1 5C174C53
 P 2200 6000
 F 0 "U1" H 2200 5700 60  0000 C CNN
@@ -293,7 +259,7 @@ F 3 "" H 2500 7750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XC7A35T_CSG325 U1
+L custom:XC7A35T_CSG325 U1
 U 3 1 5C174C9A
 P 5600 6000
 F 0 "U1" H 5600 5700 60  0000 C CNN
@@ -304,7 +270,7 @@ F 3 "" H 5900 7750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XC7A35T_CSG325 U1
+L custom:XC7A35T_CSG325 U1
 U 4 1 5C174CD5
 P 8700 6000
 F 0 "U1" H 8700 5700 60  0000 C CNN
@@ -347,153 +313,153 @@ VGA_HS
 Text GLabel 6500 2400 2    60   Input ~ 0
 VGA_VS
 Text GLabel 6500 2500 2    60   Input ~ 0
-DDR4_A0
+DDR2_A0
 Text GLabel 6500 2600 2    60   Input ~ 0
-DDR4_A1
+DDR2_A1
 Text GLabel 6500 2700 2    60   Input ~ 0
-DDR4_A2
+DDR2_A2
 Text GLabel 6500 2800 2    60   Input ~ 0
-DDR4_A3
+DDR2_A3
 Text GLabel 6500 2900 2    60   Input ~ 0
-DDR4_A4
+DDR2_A4
 Text GLabel 6500 3000 2    60   Input ~ 0
-DDR4_A5
+DDR2_A5
 Text GLabel 6500 3100 2    60   Input ~ 0
-DDR4_A6
+DDR2_A6
 Text GLabel 6500 3200 2    60   Input ~ 0
-DDR4_A7
+DDR2_A7
 Text GLabel 6500 3300 2    60   Input ~ 0
-DDR4_A8
+DDR2_A8
 Text GLabel 6500 3400 2    60   Input ~ 0
-DDR4_A9
+DDR2_A9
 Text GLabel 6500 3500 2    60   Input ~ 0
-DDR4_A10
+DDR2_A10
 Text GLabel 6500 3600 2    60   Input ~ 0
-DDR4_A11
+DDR2_A11
 Text GLabel 6500 3700 2    60   Input ~ 0
-DDR4_A12
+DDR2_A12
 Text GLabel 6500 3800 2    60   Input ~ 0
-DDR4_A13
+DDR2_A13
 Text GLabel 6500 3900 2    60   Input ~ 0
-DDR4_A14_WE_B
+DDR2_A14_WE_B
 Text GLabel 6500 4000 2    60   Input ~ 0
-DDR4_A15_CAS_B
+DDR2_A15_CAS_B
 Text GLabel 6500 4100 2    60   Input ~ 0
-DDR4_A16_RAS_B
+DDR2_A16_RAS_B
 Text GLabel 6500 4200 2    60   Input ~ 0
-DDR4_BA0
+DDR2_BA0
 Text GLabel 6500 4300 2    60   Input ~ 0
-DDR4_BA1
+DDR2_BA1
 Text GLabel 6500 4400 2    60   Input ~ 0
-DDR4_BG0
+DDR2_BG0
 Text GLabel 6500 4500 2    60   Input ~ 0
-DDR4_CK_T
+DDR2_CK_T
 Text GLabel 6500 4600 2    60   Input ~ 0
-DDR4_CK_C
+DDR2_CK_C
 Text GLabel 6500 4700 2    60   Input ~ 0
-DDR4_CKE
+DDR2_CKE
 Text GLabel 6500 4800 2    60   Input ~ 0
-DDR4_ACT_N
+DDR2_ACT_N
 Text GLabel 6500 4900 2    60   Input ~ 0
-DDR4_TEN
+DDR2_TEN
 Text GLabel 6500 5000 2    60   Input ~ 0
-DDR4_ALERT_N
+DDR2_ALERT_N
 Text GLabel 6500 5100 2    60   Input ~ 0
-DDR4_PAR
+DDR2_PAR
 Text GLabel 6500 5200 2    60   Input ~ 0
-DDR4_RESET_N
+DDR2_RESET_N
 Text GLabel 6500 5300 2    60   Input ~ 0
-DDR4_ODT
+DDR2_ODT
 Text GLabel 6500 5400 2    60   Input ~ 0
-DDR4_CS_N
+DDR2_CS_N
 Text GLabel 9400 1100 2    60   Input ~ 0
-DDR4_DQ0
+DDR2_DQ0
 Text GLabel 9400 1200 2    60   Input ~ 0
-DDR4_DQ1
+DDR2_DQ1
 Text GLabel 9400 1300 2    60   Input ~ 0
-DDR4_DQ2
+DDR2_DQ2
 Text GLabel 9400 1400 2    60   Input ~ 0
-DDR4_DQ3
+DDR2_DQ3
 Text GLabel 9400 1500 2    60   Input ~ 0
-DDR4_DQ4
+DDR2_DQ4
 Text GLabel 9400 1600 2    60   Input ~ 0
-DDR4_DQ5
+DDR2_DQ5
 Text GLabel 9400 1700 2    60   Input ~ 0
-DDR4_DQ6
+DDR2_DQ6
 Text GLabel 9400 1800 2    60   Input ~ 0
-DDR4_DQ7
+DDR2_DQ7
 Text GLabel 9400 1900 2    60   Input ~ 0
-DDR4_DQ8
+DDR2_DQ8
 Text GLabel 9400 2000 2    60   Input ~ 0
-DDR4_DQ9
+DDR2_DQ9
 Text GLabel 9400 2100 2    60   Input ~ 0
-DDR4_DQ10
+DDR2_DQ10
 Text GLabel 9400 2200 2    60   Input ~ 0
-DDR4_DQ11
+DDR2_DQ11
 Text GLabel 9400 2300 2    60   Input ~ 0
-DDR4_DQ12
+DDR2_DQ12
 Text GLabel 9400 2400 2    60   Input ~ 0
-DDR4_DQ13
+DDR2_DQ13
 Text GLabel 9400 2500 2    60   Input ~ 0
-DDR4_DQ14
+DDR2_DQ14
 Text GLabel 9400 2600 2    60   Input ~ 0
-DDR4_DQ15
+DDR2_DQ15
 Text GLabel 9400 4300 2    60   Input ~ 0
-DDR4_DQS0_T
+DDR2_DQS0_T
 Text GLabel 9400 4400 2    60   Input ~ 0
-DDR4_DQS0_C
+DDR2_DQS0_C
 Text GLabel 9400 4500 2    60   Input ~ 0
-DDR4_DQS1_T
+DDR2_DQS1_T
 Text GLabel 9400 4600 2    60   Input ~ 0
-DDR4_DQS1_C
+DDR2_DQS1_C
 Text GLabel 6500 5500 2    60   Input ~ 0
-DDR4_DM0
+DDR2_DM0
 Text GLabel 6500 5600 2    60   Input ~ 0
-DDR4_DM1
+DDR2_DM1
 Text GLabel 9400 2700 2    60   Input ~ 0
-DDR4_DQ16
+DDR2_DQ16
 Text GLabel 9400 2800 2    60   Input ~ 0
-DDR4_DQ17
+DDR2_DQ17
 Text GLabel 9400 2900 2    60   Input ~ 0
-DDR4_DQ18
+DDR2_DQ18
 Text GLabel 9400 3000 2    60   Input ~ 0
-DDR4_DQ19
+DDR2_DQ19
 Text GLabel 9400 3100 2    60   Input ~ 0
-DDR4_DQ20
+DDR2_DQ20
 Text GLabel 9400 3200 2    60   Input ~ 0
-DDR4_DQ21
+DDR2_DQ21
 Text GLabel 9400 3300 2    60   Input ~ 0
-DDR4_DQ22
+DDR2_DQ22
 Text GLabel 9400 3400 2    60   Input ~ 0
-DDR4_DQ23
+DDR2_DQ23
 Text GLabel 9400 3500 2    60   Input ~ 0
-DDR4_DQ24
+DDR2_DQ24
 Text GLabel 9400 3600 2    60   Input ~ 0
-DDR4_DQ25
+DDR2_DQ25
 Text GLabel 9400 3700 2    60   Input ~ 0
-DDR4_DQ26
+DDR2_DQ26
 Text GLabel 9400 3800 2    60   Input ~ 0
-DDR4_DQ27
+DDR2_DQ27
 Text GLabel 9400 3900 2    60   Input ~ 0
-DDR4_DQ28
+DDR2_DQ28
 Text GLabel 9400 4000 2    60   Input ~ 0
-DDR4_DQ29
+DDR2_DQ29
 Text GLabel 9400 4100 2    60   Input ~ 0
-DDR4_DQ30
+DDR2_DQ30
 Text GLabel 9400 4200 2    60   Input ~ 0
-DDR4_DQ31
+DDR2_DQ31
 Text GLabel 9400 4700 2    60   Input ~ 0
-DDR4_DQS2_T
+DDR2_DQS2_T
 Text GLabel 9400 4800 2    60   Input ~ 0
-DDR4_DQS2_C
+DDR2_DQS2_C
 Text GLabel 9400 4900 2    60   Input ~ 0
-DDR4_DQS3_T
+DDR2_DQS3_T
 Text GLabel 9400 5000 2    60   Input ~ 0
-DDR4_DQS3_C
+DDR2_DQS3_C
 Text GLabel 6500 5700 2    60   Input ~ 0
-DDR4_DM2
+DDR2_DM2
 Text GLabel 6500 5800 2    60   Input ~ 0
-DDR4_DM3
+DDR2_DM3
 Text GLabel 3200 5900 2    60   Input ~ 0
 GPIO_1
 Text GLabel 3200 6000 2    60   Input ~ 0
@@ -522,4 +488,38 @@ Text GLabel 9400 5900 2    60   Input ~ 0
 GPIO_13
 Text GLabel 9400 6000 2    60   Input ~ 0
 GPIO_14
+Wire Wire Line
+	1100 5400 1200 5400
+Wire Wire Line
+	1100 5900 1100 6000
+Wire Wire Line
+	1100 5800 1100 5900
+Wire Wire Line
+	1100 5700 1100 5800
+Wire Wire Line
+	1100 5600 1100 5700
+Wire Wire Line
+	1100 5500 1100 5600
+Wire Wire Line
+	4600 5400 4700 5400
+Wire Wire Line
+	4600 5900 4600 6000
+Wire Wire Line
+	4600 5800 4600 5900
+Wire Wire Line
+	4600 5700 4600 5800
+Wire Wire Line
+	4600 5600 4600 5700
+Wire Wire Line
+	4600 5500 4600 5600
+Wire Wire Line
+	7900 5500 8000 5500
+Wire Wire Line
+	7900 5900 7900 6000
+Wire Wire Line
+	7900 5800 7900 5900
+Wire Wire Line
+	7900 5700 7900 5800
+Wire Wire Line
+	7900 5600 7900 5700
 $EndSCHEMATC

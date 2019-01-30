@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AS4C256M16D3B
+D RAM shit
+K RAM
+$ENDCMP
+#
 $CMP EDY4016A
 D RAM shit
 K RAM

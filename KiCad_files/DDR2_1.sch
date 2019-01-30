@@ -1,40 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:custom
-LIBS:Connector
+EESchema Schematic File Version 4
 LIBS:RASAC-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,55 +14,44 @@ Comment2 "Advisor: Professor Sable"
 Comment3 "Senior Projects"
 Comment4 "The Cooper Union for the Advancement of Science and Art"
 $EndDescr
-$Comp
-L EDY4016A J5
-U 1 1 5C13D0F3
-P 5900 3900
-F 0 "J5" H 5900 5750 50  0000 C CNN
-F 1 "EDY4016A" H 5850 3900 50  0000 C CNN
-F 2 "" H 5900 2550 50  0001 C CNN
-F 3 "" H 5900 2550 50  0001 C CNN
-	1    5900 3900
-	1    0    0    -1  
-$EndComp
 Text GLabel 3950 2200 0    60   Input ~ 0
-DDR4_A0
+DDR2_A0
 Text GLabel 3950 2300 0    60   Input ~ 0
-DDR4_A1
+DDR2_A1
 Text GLabel 3950 2400 0    60   Input ~ 0
-DDR4_A2
+DDR2_A2
 Text GLabel 3950 2500 0    60   Input ~ 0
-DDR4_A3
+DDR2_A3
 Text GLabel 3950 2600 0    60   Input ~ 0
-DDR4_A4
+DDR2_A4
 Text GLabel 3950 2700 0    60   Input ~ 0
-DDR4_A5
+DDR2_A5
 Text GLabel 3950 2800 0    60   Input ~ 0
-DDR4_A6
+DDR2_A6
 Text GLabel 3950 2900 0    60   Input ~ 0
-DDR4_A7
+DDR2_A7
 Text GLabel 3950 3000 0    60   Input ~ 0
-DDR4_A8
+DDR2_A8
 Text GLabel 3950 3100 0    60   Input ~ 0
-DDR4_A9
+DDR2_A9
 Text GLabel 3950 3200 0    60   Input ~ 0
-DDR4_A10
+DDR2_A10
 Text GLabel 3950 3300 0    60   Input ~ 0
-DDR4_A11
+DDR2_A11
 Text GLabel 3950 3400 0    60   Input ~ 0
-DDR4_A12
+DDR2_A12
 Text GLabel 3950 3500 0    60   Input ~ 0
-DDR4_A13
+DDR2_A13
 Text GLabel 3950 3600 0    60   Input ~ 0
-DDR4_A14_WE_B
+DDR2_A14
 Text GLabel 3950 3700 0    60   Input ~ 0
-DDR4_A15_CAS_B
+CAS_B
 Text GLabel 3950 3800 0    60   Input ~ 0
-DDR4_A16_RAS_B
+RAS_B
 Text GLabel 4950 1650 1    60   Input ~ 0
 VCC2V5
 $Comp
-L R_Small R28
+L Device:R_Small R28
 U 1 1 5C144747
 P 4350 1850
 F 0 "R28" H 4380 1870 50  0000 L CNN
@@ -107,10 +62,10 @@ F 3 "" H 4350 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR97
+L power:GND #PWR097
 U 1 1 5C144778
 P 4350 1950
-F 0 "#PWR97" H 4350 1700 50  0001 C CNN
+F 0 "#PWR097" H 4350 1700 50  0001 C CNN
 F 1 "GND" H 4350 1800 50  0001 C CNN
 F 2 "" H 4350 1950 50  0001 C CNN
 F 3 "" H 4350 1950 50  0001 C CNN
@@ -118,10 +73,10 @@ F 3 "" H 4350 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR98
+L power:GND #PWR098
 U 1 1 5C144808
 P 5900 6150
-F 0 "#PWR98" H 5900 5900 50  0001 C CNN
+F 0 "#PWR098" H 5900 5900 50  0001 C CNN
 F 1 "GND" H 5900 6000 50  0001 C CNN
 F 2 "" H 5900 6150 50  0001 C CNN
 F 3 "" H 5900 6150 50  0001 C CNN
@@ -129,7 +84,7 @@ F 3 "" H 5900 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R26
+L Device:R R26
 U 1 1 5C144B03
 P 3300 1500
 F 0 "R26" V 3380 1500 50  0000 C CNN
@@ -140,7 +95,7 @@ F 3 "" H 3300 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L Device:R R27
 U 1 1 5C144B0A
 P 3300 1800
 F 0 "R27" V 3380 1800 50  0000 C CNN
@@ -151,10 +106,10 @@ F 3 "" H 3300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR94
+L power:GND #PWR094
 U 1 1 5C144B11
 P 3300 1950
-F 0 "#PWR94" H 3300 1700 50  0001 C CNN
+F 0 "#PWR094" H 3300 1700 50  0001 C CNN
 F 1 "GND" H 3300 1800 50  0001 C CNN
 F 2 "" H 3300 1950 50  0001 C CNN
 F 3 "" H 3300 1950 50  0001 C CNN
@@ -164,7 +119,7 @@ $EndComp
 Text GLabel 3300 1300 1    60   Input ~ 0
 VCC1V2
 $Comp
-L C_Small C95
+L Device:C_Small C95
 U 1 1 5C145216
 P 3050 1800
 F 0 "C95" H 3060 1870 50  0000 L CNN
@@ -175,7 +130,7 @@ F 3 "" H 3050 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C94
+L Device:C_Small C94
 U 1 1 5C145289
 P 3050 1500
 F 0 "C94" H 3060 1570 50  0000 L CNN
@@ -188,84 +143,72 @@ $EndComp
 Text GLabel 6200 1550 1    60   Input ~ 0
 VCC1V2
 Text GLabel 7850 2300 2    60   Input ~ 0
-DDR4_DQ0
+DDR2_DQ0
 Text GLabel 7850 2400 2    60   Input ~ 0
-DDR4_DQ1
+DDR2_DQ1
 Text GLabel 7850 2500 2    60   Input ~ 0
-DDR4_DQ2
+DDR2_DQ2
 Text GLabel 7850 2600 2    60   Input ~ 0
-DDR4_DQ3
+DDR2_DQ3
 Text GLabel 7850 2700 2    60   Input ~ 0
-DDR4_DQ4
+DDR2_DQ4
 Text GLabel 7850 2800 2    60   Input ~ 0
-DDR4_DQ5
+DDR2_DQ5
 Text GLabel 7850 2900 2    60   Input ~ 0
-DDR4_DQ6
+DDR2_DQ6
 Text GLabel 7850 3000 2    60   Input ~ 0
-DDR4_DQ7
+DDR2_DQ7
 Text GLabel 7850 3100 2    60   Input ~ 0
-DDR4_DQ8
+DDR2_DQ8
 Text GLabel 7850 3200 2    60   Input ~ 0
-DDR4_DQ9
+DDR2_DQ9
 Text GLabel 7850 3300 2    60   Input ~ 0
-DDR4_DQ10
+DDR2_DQ10
 Text GLabel 7850 3400 2    60   Input ~ 0
-DDR4_DQ11
+DDR2_DQ11
 Text GLabel 7850 3500 2    60   Input ~ 0
-DDR4_DQ12
+DDR2_DQ12
 Text GLabel 7850 3600 2    60   Input ~ 0
-DDR4_DQ13
+DDR2_DQ13
 Text GLabel 7850 3700 2    60   Input ~ 0
-DDR4_DQ14
+DDR2_DQ14
 Text GLabel 7850 3800 2    60   Input ~ 0
-DDR4_DQ15
-Text GLabel 3950 4000 0    60   Input ~ 0
-DDR4_BA0
+DDR2_DQ15
 Text GLabel 3950 4100 0    60   Input ~ 0
-DDR4_BA1
+DDR2_BA0
 Text GLabel 3950 4200 0    60   Input ~ 0
-DDR4_BG0
-Text GLabel 3950 4400 0    60   Input ~ 0
-DDR4_CK_T
+DDR2_BA1
+Text GLabel 3950 4300 0    60   Input ~ 0
+DDR2_BA2
 Text GLabel 3950 4500 0    60   Input ~ 0
-DDR4_CK_C
+DDR2_CK_T
 Text GLabel 3950 4600 0    60   Input ~ 0
-DDR4_CKE
-Text GLabel 3950 4800 0    60   Input ~ 0
-DDR4_ACT_N
+DDR2_CK_C
+Text GLabel 3950 4700 0    60   Input ~ 0
+DDR2_CKE
 Text GLabel 3950 4900 0    60   Input ~ 0
-DDR4_TEN
+DDR2_RESET_N
 Text GLabel 3950 5000 0    60   Input ~ 0
-DDR4_ALERT_N
+DDR2_ODT
 Text GLabel 3950 5100 0    60   Input ~ 0
-DDR4_PAR
-Text GLabel 3950 5300 0    60   Input ~ 0
-DDR4_RESET_N
-Text GLabel 3950 5400 0    60   Input ~ 0
-DDR4_ODT
-Text GLabel 3950 5500 0    60   Input ~ 0
-DDR4_CS_N
+DDR2_CS_N
+Text GLabel 7850 4100 2    60   Input ~ 0
+DDR2_DQSL_T
+Text GLabel 7850 4200 2    60   Input ~ 0
+DDR2_DQSL_C
 Text GLabel 7850 4400 2    60   Input ~ 0
-DDR4_DQS0_T
+DDR2_DQSU_T
 Text GLabel 7850 4500 2    60   Input ~ 0
-DDR4_DQS0_C
-Text GLabel 7850 4700 2    60   Input ~ 0
-DDR4_DQS1_T
-Text GLabel 7850 4800 2    60   Input ~ 0
-DDR4_DQS1_C
-Text GLabel 7850 5000 2    60   Input ~ 0
-DDR4_DM0
-Text GLabel 7850 5100 2    60   Input ~ 0
-DDR4_DM1
+DDR2_DQSU_C
 Text GLabel 3800 6650 1    60   Input ~ 0
 VCC2V5
 Text GLabel 2350 6500 1    60   Input ~ 0
 VCC1V2
 $Comp
-L GND #PWR95
+L power:GND #PWR095
 U 1 1 5C14848E
 P 3400 7150
-F 0 "#PWR95" H 3400 6900 50  0001 C CNN
+F 0 "#PWR095" H 3400 6900 50  0001 C CNN
 F 1 "GND" H 3400 7000 50  0001 C CNN
 F 2 "" H 3400 7150 50  0001 C CNN
 F 3 "" H 3400 7150 50  0001 C CNN
@@ -273,7 +216,7 @@ F 3 "" H 3400 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C89
+L Device:C_Small C89
 U 1 1 5C1484C9
 P 2350 6700
 F 0 "C89" H 2360 6770 50  0000 L CNN
@@ -284,7 +227,7 @@ F 3 "" H 2350 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C91
+L Device:C_Small C91
 U 1 1 5C14882E
 P 2650 6700
 F 0 "C91" H 2660 6770 50  0000 L CNN
@@ -295,7 +238,7 @@ F 3 "" H 2650 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C93
+L Device:C_Small C93
 U 1 1 5C1488A8
 P 2950 6700
 F 0 "C93" H 2960 6770 50  0000 L CNN
@@ -306,7 +249,7 @@ F 3 "" H 2950 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C97
+L Device:C_Small C97
 U 1 1 5C1488AE
 P 3250 6700
 F 0 "C97" H 3260 6770 50  0000 L CNN
@@ -317,7 +260,7 @@ F 3 "" H 3250 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C90
+L Device:C_Small C90
 U 1 1 5C148AAE
 P 2500 6950
 F 0 "C90" H 2510 7020 50  0000 L CNN
@@ -328,7 +271,7 @@ F 3 "" H 2500 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C92
+L Device:C_Small C92
 U 1 1 5C148AB4
 P 2800 6950
 F 0 "C92" H 2810 7020 50  0000 L CNN
@@ -339,7 +282,7 @@ F 3 "" H 2800 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C96
+L Device:C_Small C96
 U 1 1 5C148ABA
 P 3100 6950
 F 0 "C96" H 3110 7020 50  0000 L CNN
@@ -350,7 +293,7 @@ F 3 "" H 3100 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C98
+L Device:C_Small C98
 U 1 1 5C148AC0
 P 3400 6950
 F 0 "C98" H 3410 7020 50  0000 L CNN
@@ -361,7 +304,7 @@ F 3 "" H 3400 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 1650 4950 1750
+	4950 1650 4950 1700
 Wire Wire Line
 	4950 1700 4850 1700
 Wire Wire Line
@@ -370,7 +313,7 @@ Connection ~ 4950 1700
 Wire Wire Line
 	4350 1750 4600 1750
 Wire Wire Line
-	3050 1650 4750 1650
+	3050 1650 3300 1650
 Connection ~ 3300 1650
 Wire Wire Line
 	4750 1650 4750 1750
@@ -381,7 +324,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 1300 3300 1350
 Wire Wire Line
-	3050 1600 3050 1700
+	3050 1600 3050 1650
 Connection ~ 3050 1650
 Wire Wire Line
 	3050 1900 3050 1950
@@ -390,15 +333,12 @@ Wire Wire Line
 Wire Wire Line
 	5200 1750 5200 1650
 Wire Wire Line
-	5200 1650 7200 1650
+	5200 1650 5300 1650
 Wire Wire Line
 	6200 1650 6200 1550
-Wire Wire Line
-	7200 1650 7200 1750
 Connection ~ 6200 1650
 Wire Wire Line
 	7100 1750 7100 1650
-Connection ~ 7100 1650
 Wire Wire Line
 	7000 1650 7000 1750
 Connection ~ 7000 1650
@@ -423,9 +363,6 @@ Connection ~ 6400 1650
 Wire Wire Line
 	6300 1750 6300 1650
 Connection ~ 6300 1650
-Wire Wire Line
-	6100 1750 6100 1650
-Connection ~ 6100 1650
 Wire Wire Line
 	6000 1650 6000 1750
 Connection ~ 6000 1650
@@ -453,7 +390,7 @@ Connection ~ 5300 1650
 Wire Wire Line
 	4800 5950 4800 6050
 Wire Wire Line
-	4800 6050 6900 6050
+	4800 6050 4900 6050
 Wire Wire Line
 	5900 6050 5900 6150
 Wire Wire Line
@@ -484,9 +421,6 @@ Wire Wire Line
 Connection ~ 6100 6050
 Connection ~ 5900 6050
 Wire Wire Line
-	5700 6050 5700 5950
-Connection ~ 5700 6050
-Wire Wire Line
 	5600 5950 5600 6050
 Connection ~ 5600 6050
 Wire Wire Line
@@ -511,9 +445,9 @@ Wire Wire Line
 	4900 6050 4900 5950
 Connection ~ 4900 6050
 Wire Wire Line
-	2350 6500 2350 6600
+	2350 6500 2350 6550
 Wire Wire Line
-	2350 6550 3400 6550
+	2350 6550 2500 6550
 Wire Wire Line
 	3250 6550 3250 6600
 Connection ~ 2350 6550
@@ -536,9 +470,9 @@ Wire Wire Line
 	3400 6550 3400 6850
 Connection ~ 3250 6550
 Wire Wire Line
-	3400 7150 3400 7050
+	3400 7150 3400 7100
 Wire Wire Line
-	3400 7100 2350 7100
+	3400 7100 3250 7100
 Wire Wire Line
 	2350 7100 2350 6800
 Connection ~ 3400 7100
@@ -561,7 +495,7 @@ Wire Wire Line
 	3250 6800 3250 7100
 Connection ~ 3250 7100
 $Comp
-L C_Small C99
+L Device:C_Small C99
 U 1 1 5C149C6F
 P 3800 6850
 F 0 "C99" H 3810 6920 50  0000 L CNN
@@ -572,10 +506,10 @@ F 3 "" H 3800 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR96
+L power:GND #PWR096
 U 1 1 5C149CC6
 P 3800 7050
-F 0 "#PWR96" H 3800 6800 50  0001 C CNN
+F 0 "#PWR096" H 3800 6800 50  0001 C CNN
 F 1 "GND" H 3800 6900 50  0001 C CNN
 F 2 "" H 3800 7050 50  0001 C CNN
 F 3 "" H 3800 7050 50  0001 C CNN
@@ -583,7 +517,7 @@ F 3 "" H 3800 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C100
+L Device:C_Small C100
 U 1 1 5C149D49
 P 4050 6850
 F 0 "C100" H 4060 6920 50  0000 L CNN
@@ -594,7 +528,7 @@ F 3 "" H 4050 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 6650 3800 6750
+	3800 6650 3800 6700
 Wire Wire Line
 	3800 6700 4050 6700
 Wire Wire Line
@@ -605,6 +539,133 @@ Wire Wire Line
 Wire Wire Line
 	4050 7000 3800 7000
 Wire Wire Line
-	3800 6950 3800 7050
+	3800 6950 3800 7000
 Connection ~ 3800 7000
+Wire Wire Line
+	4950 1700 4950 1750
+Wire Wire Line
+	3300 1650 4750 1650
+Wire Wire Line
+	3050 1650 3050 1700
+Wire Wire Line
+	6200 1650 6300 1650
+Wire Wire Line
+	7000 1650 7100 1650
+Wire Wire Line
+	6900 1650 7000 1650
+Wire Wire Line
+	6800 1650 6900 1650
+Wire Wire Line
+	6700 1650 6800 1650
+Wire Wire Line
+	6600 1650 6700 1650
+Wire Wire Line
+	6500 1650 6600 1650
+Wire Wire Line
+	6400 1650 6500 1650
+Wire Wire Line
+	6300 1650 6400 1650
+Wire Wire Line
+	5900 1650 6000 1650
+Wire Wire Line
+	5800 1650 5900 1650
+Wire Wire Line
+	5700 1650 5800 1650
+Wire Wire Line
+	5600 1650 5700 1650
+Wire Wire Line
+	5500 1650 5600 1650
+Wire Wire Line
+	5400 1650 5500 1650
+Wire Wire Line
+	5300 1650 5400 1650
+Wire Wire Line
+	6800 6050 6900 6050
+Wire Wire Line
+	6700 6050 6800 6050
+Wire Wire Line
+	6600 6050 6700 6050
+Wire Wire Line
+	6500 6050 6600 6050
+Wire Wire Line
+	6400 6050 6500 6050
+Wire Wire Line
+	6300 6050 6400 6050
+Wire Wire Line
+	6200 6050 6300 6050
+Wire Wire Line
+	6100 6050 6200 6050
+Wire Wire Line
+	5900 6050 6100 6050
+Wire Wire Line
+	5500 6050 5600 6050
+Wire Wire Line
+	5400 6050 5500 6050
+Wire Wire Line
+	5300 6050 5400 6050
+Wire Wire Line
+	5200 6050 5300 6050
+Wire Wire Line
+	5100 6050 5200 6050
+Wire Wire Line
+	5000 6050 5100 6050
+Wire Wire Line
+	4900 6050 5000 6050
+Wire Wire Line
+	2350 6550 2350 6600
+Wire Wire Line
+	2950 6550 3100 6550
+Wire Wire Line
+	2650 6550 2800 6550
+Wire Wire Line
+	2500 6550 2650 6550
+Wire Wire Line
+	2800 6550 2950 6550
+Wire Wire Line
+	3100 6550 3250 6550
+Wire Wire Line
+	3250 6550 3400 6550
+Wire Wire Line
+	3400 7100 3400 7050
+Wire Wire Line
+	2500 7100 2350 7100
+Wire Wire Line
+	2650 7100 2500 7100
+Wire Wire Line
+	2800 7100 2650 7100
+Wire Wire Line
+	2950 7100 2800 7100
+Wire Wire Line
+	3100 7100 2950 7100
+Wire Wire Line
+	3250 7100 3100 7100
+Wire Wire Line
+	3800 6700 3800 6750
+Wire Wire Line
+	3800 7000 3800 7050
+Text GLabel 3950 3900 0    60   Input ~ 0
+WE_B
+Text GLabel 3950 5300 0    60   Input ~ 0
+DDR2_DMU
+Text GLabel 3950 5400 0    60   Input ~ 0
+DDR2_DML
+Wire Wire Line
+	5600 6050 5900 6050
+Wire Wire Line
+	6900 6050 7000 6050
+Wire Wire Line
+	7200 6050 7200 5950
+Connection ~ 6900 6050
+Wire Wire Line
+	7100 5950 7100 6050
+Connection ~ 7100 6050
+Wire Wire Line
+	7100 6050 7200 6050
+Wire Wire Line
+	7000 6050 7000 5950
+Connection ~ 7000 6050
+Wire Wire Line
+	7000 6050 7100 6050
+Wire Wire Line
+	6000 1650 6200 1650
 $EndSCHEMATC

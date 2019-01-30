@@ -1,40 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:custom
-LIBS:Connector
+EESchema Schematic File Version 4
 LIBS:RASAC-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -49,7 +15,7 @@ Comment3 "Senior Projects"
 Comment4 "The Cooper Union for the Advancement of Science and Art"
 $EndDescr
 $Comp
-L PCIe_x4_Connector J1
+L custom:PCIe_x4_Connector J1
 U 1 1 5BFDC341
 P 4150 3800
 F 0 "J1" H 4150 5650 50  0000 C CNN
@@ -81,10 +47,10 @@ Wire Wire Line
 	5350 2300 5250 2300
 Connection ~ 5350 2200
 $Comp
-L GND #PWR1
+L power:GND #PWR01
 U 1 1 5BFDC477
 P 2950 5400
-F 0 "#PWR1" H 2950 5150 50  0001 C CNN
+F 0 "#PWR01" H 2950 5150 50  0001 C CNN
 F 1 "GND" H 2950 5250 50  0000 C CNN
 F 2 "" H 2950 5400 50  0001 C CNN
 F 3 "" H 2950 5400 50  0001 C CNN
@@ -129,10 +95,10 @@ Wire Wire Line
 Wire Wire Line
 	5350 2400 5350 5400
 $Comp
-L GND #PWR2
+L power:GND #PWR02
 U 1 1 5BFDC630
 P 5350 5400
-F 0 "#PWR2" H 5350 5150 50  0001 C CNN
+F 0 "#PWR02" H 5350 5150 50  0001 C CNN
 F 1 "GND" H 5350 5250 50  0000 C CNN
 F 2 "" H 5350 5400 50  0001 C CNN
 F 3 "" H 5350 5400 50  0001 C CNN
@@ -239,7 +205,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 3600 2850 3600
 $Comp
-L C_Small C1
+L Device:C_Small C1
 U 1 1 5BFDCD53
 P 5750 3450
 F 0 "C1" H 5760 3520 50  0000 L CNN
@@ -250,7 +216,7 @@ F 3 "" H 5750 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C2
+L Device:C_Small C2
 U 1 1 5BFDCDA6
 P 5750 3650
 F 0 "C2" H 5760 3720 50  0000 L CNN
@@ -297,7 +263,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 3500 6250 3500
 $Comp
-L C_Small C3
+L Device:C_Small C3
 U 1 1 5BFDD468
 P 6100 3750
 F 0 "C3" H 6110 3820 50  0000 L CNN
@@ -308,7 +274,7 @@ F 3 "" H 6100 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C4
+L Device:C_Small C4
 U 1 1 5BFDD46E
 P 6100 3950
 F 0 "C4" H 6110 4020 50  0000 L CNN
@@ -343,7 +309,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 3800 5950 3800
 $Comp
-L C_Small C5
+L Device:C_Small C5
 U 1 1 5BFDE1F5
 P 6100 4250
 F 0 "C5" H 6110 4320 50  0000 L CNN
@@ -354,7 +320,7 @@ F 3 "" H 6100 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C6
+L Device:C_Small C6
 U 1 1 5BFDE1FB
 P 6100 4450
 F 0 "C6" H 6110 4520 50  0000 L CNN
@@ -389,7 +355,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 4300 5950 4300
 $Comp
-L C_Small C7
+L Device:C_Small C7
 U 1 1 5BFDE267
 P 6100 4650
 F 0 "C7" H 6110 4720 50  0000 L CNN
@@ -400,7 +366,7 @@ F 3 "" H 6100 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C8
+L Device:C_Small C8
 U 1 1 5BFDE26D
 P 6100 4850
 F 0 "C8" H 6110 4920 50  0000 L CNN
@@ -435,7 +401,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 4700 5950 4700
 $Comp
-L C_Small C9
+L Device:C_Small C9
 U 1 1 5BFDE2C1
 P 6100 5050
 F 0 "C9" H 6110 5120 50  0000 L CNN
@@ -446,7 +412,7 @@ F 3 "" H 6100 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C10
+L Device:C_Small C10
 U 1 1 5BFDE2C7
 P 6100 5250
 F 0 "C10" H 6110 5320 50  0000 L CNN
@@ -483,7 +449,7 @@ Wire Wire Line
 Text GLabel 8800 2500 2    60   Input ~ 0
 MGTAVTT
 $Comp
-L R R1
+L Device:R R1
 U 1 1 5C0632A0
 P 8650 2500
 F 0 "R1" V 8730 2500 50  0000 C CNN
@@ -568,7 +534,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 4500 8500 4500
 $Comp
-L XC7A35T_CSG325 U1
+L custom:XC7A35T_CSG325 U1
 U 5 1 5C173C24
 P 7900 4500
 F 0 "U1" H 7900 4200 60  0000 C CNN
