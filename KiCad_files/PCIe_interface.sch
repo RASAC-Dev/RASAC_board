@@ -32,15 +32,15 @@ PCIe_12V
 Wire Wire Line
 	2950 2300 3050 2300
 Wire Wire Line
-	2950 2100 2950 2300
+	2950 2100 2950 2200
 Wire Wire Line
-	2850 2100 3050 2100
+	2850 2100 2950 2100
 Connection ~ 2950 2100
 Wire Wire Line
 	3050 2200 2950 2200
 Connection ~ 2950 2200
 Wire Wire Line
-	5250 2200 5450 2200
+	5250 2200 5350 2200
 Wire Wire Line
 	5350 2200 5350 2300
 Wire Wire Line
@@ -60,7 +60,7 @@ $EndComp
 Wire Wire Line
 	3050 2400 2950 2400
 Wire Wire Line
-	2950 2400 2950 5400
+	2950 2400 2950 2700
 Wire Wire Line
 	2950 5400 3050 5400
 Wire Wire Line
@@ -93,7 +93,7 @@ Connection ~ 2950 5100
 Wire Wire Line
 	5350 5300 5250 5300
 Wire Wire Line
-	5350 2400 5350 5400
+	5350 2400 5350 3400
 $Comp
 L power:GND #PWR02
 U 1 1 5BFDC630
@@ -544,4 +544,50 @@ F 3 "" H 8200 6250 60  0001 C CNN
 	5    7900 4500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2950 2100 3050 2100
+Wire Wire Line
+	2950 2200 2950 2300
+Wire Wire Line
+	5350 2200 5450 2200
+Wire Wire Line
+	2950 2700 2950 3500
+Wire Wire Line
+	2950 3500 2950 3800
+Wire Wire Line
+	2950 3800 2950 4000
+Wire Wire Line
+	2950 4000 2950 4300
+Wire Wire Line
+	2950 4300 2950 4400
+Wire Wire Line
+	2950 4400 2950 4700
+Wire Wire Line
+	2950 4700 2950 4800
+Wire Wire Line
+	2950 4800 2950 5100
+Wire Wire Line
+	2950 5100 2950 5400
+Wire Wire Line
+	5350 5300 5350 5400
+Wire Wire Line
+	5350 3400 5350 3700
+Wire Wire Line
+	5350 3700 5350 4000
+Wire Wire Line
+	5350 4000 5350 4200
+Wire Wire Line
+	5350 4200 5350 4500
+Wire Wire Line
+	5350 4500 5350 4600
+Wire Wire Line
+	5350 4600 5350 4900
+Wire Wire Line
+	5350 4900 5350 5000
+Wire Wire Line
+	5350 5000 5350 5300
+NoConn ~ 5250 2500
+NoConn ~ 5250 2600
+NoConn ~ 5250 2700
+NoConn ~ 5250 2800
 $EndSCHEMATC
