@@ -386,7 +386,7 @@ F 3 "" H 8500 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND- #PWR066
+L power:GND #PWR066
 U 1 1 5C05D184
 P 8500 1300
 F 0 "#PWR066" H 8500 1050 50  0001 C CNN
