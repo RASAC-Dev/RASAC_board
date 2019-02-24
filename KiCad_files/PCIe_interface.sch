@@ -138,8 +138,6 @@ Wire Wire Line
 	5250 2100 5250 2050
 Wire Wire Line
 	5250 2050 5450 2050
-Text GLabel 2850 3900 0    60   Input ~ 0
-PCIe_PRSNT_x1
 Wire Wire Line
 	2850 3900 3050 3900
 Text GLabel 2850 5300 0    60   Input ~ 0
@@ -590,4 +588,16 @@ NoConn ~ 5250 2500
 NoConn ~ 5250 2600
 NoConn ~ 5250 2700
 NoConn ~ 5250 2800
+Connection ~ 5250 2900
+NoConn ~ 3050 2500
+NoConn ~ 3050 2600
+NoConn ~ 3050 2900
+NoConn ~ 3050 3000
+NoConn ~ 2850 3900
+Text GLabel 3800 6000 0    60   Input ~ 0
+PCIe_PRSNT_B
+Text GLabel 4300 6000 2    60   Input ~ 0
+PCIe_PRSNT_x4
+Wire Wire Line
+	4300 6000 3800 6000
 $EndSCHEMATC
