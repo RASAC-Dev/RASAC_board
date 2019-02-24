@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 9 9
 Title "Reconfigurable Application-Specific Accelerator Card"
 Date "2018-11-27"
 Rev "1.0"
@@ -1407,8 +1407,6 @@ Wire Wire Line
 Connection ~ 7200 2600
 Wire Wire Line
 	9200 1900 9200 1600
-Text Notes 5550 4200 0    60   ~ 0
-Unsure about I2C connections and hotplug
 Connection ~ 8900 5850
 Text GLabel 6300 3500 2    60   Input ~ 0
 VCC3V3

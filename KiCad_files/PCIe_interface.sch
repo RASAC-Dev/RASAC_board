@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 9
 Title "Reconfigurable Application-Specific Accelerator Card"
 Date "2018-11-27"
 Rev "1.0"
@@ -593,11 +593,11 @@ NoConn ~ 3050 2500
 NoConn ~ 3050 2600
 NoConn ~ 3050 2900
 NoConn ~ 3050 3000
-NoConn ~ 2850 3900
 Text GLabel 3800 6000 0    60   Input ~ 0
 PCIe_PRSNT_B
 Text GLabel 4300 6000 2    60   Input ~ 0
 PCIe_PRSNT_x4
 Wire Wire Line
 	4300 6000 3800 6000
+NoConn ~ 2850 3900
 $EndSCHEMATC

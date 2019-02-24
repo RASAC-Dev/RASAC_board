@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 6 9
 Title "Reconfigurable Application-Specific Accelerator Card"
 Date "2018-11-27"
 Rev "1.0"
@@ -74,14 +74,14 @@ F 3 "" H 1300 7350 50  0001 C CNN
 	1    1300 7350
 	1    0    0    -1  
 $EndComp
-Text GLabel 3200 2500 2    60   Input ~ 0
+Text GLabel 3200 2000 2    60   Input ~ 0
 PCIe_WAKE_B
-Text GLabel 3200 2600 2    60   Input ~ 0
+Text GLabel 3200 2100 2    60   Input ~ 0
 PCIe_PERST
 Text GLabel 3200 1600 2    60   Input ~ 0
 VCCO
 Text GLabel 4500 5400 0    60   Input ~ 0
-VCCO
+VCC1V8
 Wire Wire Line
 	4500 5400 4600 5400
 $Comp
@@ -96,7 +96,7 @@ F 3 "" H 1900 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1900 7050 1    60   Input ~ 0
-VCCO
+VCC1V8
 $Comp
 L power:GND #PWR098
 U 1 1 5C13C2A8
@@ -173,79 +173,79 @@ Connection ~ 7900 5700
 Wire Wire Line
 	7900 5600 8000 5600
 Connection ~ 7900 5600
-Text GLabel 3200 3000 2    60   Input ~ 0
+Text GLabel 3200 2700 2    60   Input ~ 0
 HDMI_R_D0
-Text GLabel 3200 3100 2    60   Input ~ 0
+Text GLabel 3200 2800 2    60   Input ~ 0
 HDMI_R_D1
-Text GLabel 3200 3200 2    60   Input ~ 0
+Text GLabel 3200 2900 2    60   Input ~ 0
 HDMI_R_D2
-Text GLabel 3200 3300 2    60   Input ~ 0
+Text GLabel 3200 3000 2    60   Input ~ 0
 HDMI_R_D3
-Text GLabel 3200 3400 2    60   Input ~ 0
+Text GLabel 3200 3100 2    60   Input ~ 0
 HDMI_R_D4
-Text GLabel 3200 3500 2    60   Input ~ 0
+Text GLabel 3200 3200 2    60   Input ~ 0
 HDMI_R_D5
-Text GLabel 3200 3600 2    60   Input ~ 0
+Text GLabel 3200 3300 2    60   Input ~ 0
 HDMI_R_D6
-Text GLabel 3200 3700 2    60   Input ~ 0
+Text GLabel 3200 3400 2    60   Input ~ 0
 HDMI_R_D7
-Text GLabel 3200 3800 2    60   Input ~ 0
+Text GLabel 3200 3500 2    60   Input ~ 0
 HDMI_R_D8
-Text GLabel 3200 3900 2    60   Input ~ 0
+Text GLabel 3200 3600 2    60   Input ~ 0
 HDMI_R_D9
-Text GLabel 3200 4000 2    60   Input ~ 0
+Text GLabel 3200 3700 2    60   Input ~ 0
 HDMI_R_D10
-Text GLabel 3200 4100 2    60   Input ~ 0
+Text GLabel 3200 3800 2    60   Input ~ 0
 HDMI_R_D11
-Text GLabel 3200 4200 2    60   Input ~ 0
+Text GLabel 3200 3900 2    60   Input ~ 0
 HDMI_R_D12
-Text GLabel 3200 4300 2    60   Input ~ 0
+Text GLabel 3200 4000 2    60   Input ~ 0
 HDMI_R_D13
-Text GLabel 3200 4400 2    60   Input ~ 0
+Text GLabel 3200 4100 2    60   Input ~ 0
 HDMI_R_D14
-Text GLabel 3200 4500 2    60   Input ~ 0
+Text GLabel 3200 4200 2    60   Input ~ 0
 HDMI_R_D15
-Text GLabel 3200 4600 2    60   Input ~ 0
+Text GLabel 3200 4300 2    60   Input ~ 0
 HDMI_R_D16
-Text GLabel 3200 4700 2    60   Input ~ 0
+Text GLabel 3200 4400 2    60   Input ~ 0
 HDMI_R_D17
-Text GLabel 3200 4800 2    60   Input ~ 0
+Text GLabel 3200 4500 2    60   Input ~ 0
 HDMI_R_D18
-Text GLabel 3200 4900 2    60   Input ~ 0
+Text GLabel 3200 4600 2    60   Input ~ 0
 HDMI_R_D19
-Text GLabel 3200 5000 2    60   Input ~ 0
+Text GLabel 3200 4700 2    60   Input ~ 0
 HDMI_R_D20
-Text GLabel 3200 5100 2    60   Input ~ 0
+Text GLabel 3200 4800 2    60   Input ~ 0
 HDMI_R_D21
-Text GLabel 3200 5200 2    60   Input ~ 0
+Text GLabel 3200 4900 2    60   Input ~ 0
 HDMI_R_D22
-Text GLabel 3200 5300 2    60   Input ~ 0
+Text GLabel 3200 5000 2    60   Input ~ 0
 HDMI_R_D23
-Text GLabel 3200 5400 2    60   Input ~ 0
+Text GLabel 3200 5100 2    60   Input ~ 0
 HDMI_R_CLK
-Text GLabel 3200 5800 2    60   Input ~ 0
-HDMI_RST
 Text GLabel 3200 5500 2    60   Input ~ 0
+HDMI_RST
+Text GLabel 3200 5200 2    60   Input ~ 0
 HDMI_R_HSYNC
-Text GLabel 3200 5600 2    60   Input ~ 0
+Text GLabel 3200 5300 2    60   Input ~ 0
 HDMI_R_VSYNC
-Text GLabel 3200 5700 2    60   Input ~ 0
+Text GLabel 3200 5400 2    60   Input ~ 0
 HDMI_R_DE
 Text GLabel 3200 1800 2    60   Input ~ 0
 TTL_TxD1
 Text GLabel 3200 1900 2    60   Input ~ 0
 TTL_RxD1
-Text GLabel 3200 2000 2    60   Input ~ 0
+Text GLabel 3200 5600 2    60   Input ~ 0
 TTL_RTS1
-Text GLabel 3200 2100 2    60   Input ~ 0
+Text GLabel 3200 5700 2    60   Input ~ 0
 TTL_CTS1
-Text GLabel 3200 2400 2    60   Input ~ 0
+Text GLabel 3200 5900 2    60   Input ~ 0
 TTL_DTR1
-Text GLabel 3200 1100 2    60   Input ~ 0
+Text GLabel 3200 6000 2    60   Input ~ 0
 TTL_DSR1
-Text GLabel 3200 2300 2    60   Input ~ 0
+Text GLabel 3200 5800 2    60   Input ~ 0
 TTL_DCD1
-Text GLabel 3200 2900 2    60   Input ~ 0
+Text GLabel 3200 1100 2    60   Input ~ 0
 TTL_RI1
 $Comp
 L custom:XC7A35T_CSG325 U1
@@ -280,9 +280,9 @@ F 3 "" H 9000 7750 60  0001 C CNN
 	4    8700 6000
 	1    0    0    -1  
 $EndComp
-Text GLabel 3200 2700 2    60   Input ~ 0
+Text GLabel 3200 2300 2    60   Input ~ 0
 SYSCLK_N
-Text GLabel 3200 2800 2    60   Input ~ 0
+Text GLabel 3200 2400 2    60   Input ~ 0
 SYSCLK_P
 Text GLabel 6500 1100 2    60   Input ~ 0
 VGA_R1
@@ -308,9 +308,9 @@ Text GLabel 6500 2100 2    60   Input ~ 0
 VGA_B3
 Text GLabel 6500 2200 2    60   Input ~ 0
 VGA_B4
-Text GLabel 6500 2300 2    60   Input ~ 0
+Text GLabel 3200 2500 2    60   Input ~ 0
 VGA_HS
-Text GLabel 6500 2400 2    60   Input ~ 0
+Text GLabel 3200 2600 2    60   Input ~ 0
 VGA_VS
 Text GLabel 6500 2500 2    60   Input ~ 0
 DDR2_A0
@@ -460,34 +460,6 @@ Text GLabel 6500 5700 2    60   Input ~ 0
 DDR2_DM2
 Text GLabel 6500 5800 2    60   Input ~ 0
 DDR2_DM3
-Text GLabel 3200 5900 2    60   Input ~ 0
-GPIO_1
-Text GLabel 3200 6000 2    60   Input ~ 0
-GPIO_2
-Text GLabel 6500 5900 2    60   Input ~ 0
-GPIO_3
-Text GLabel 6500 6000 2    60   Input ~ 0
-GPIO_4
-Text GLabel 9400 5100 2    60   Input ~ 0
-GPIO_5
-Text GLabel 9400 5200 2    60   Input ~ 0
-GPIO_6
-Text GLabel 9400 5300 2    60   Input ~ 0
-GPIO_7
-Text GLabel 9400 5400 2    60   Input ~ 0
-GPIO_8
-Text GLabel 9400 5500 2    60   Input ~ 0
-GPIO_9
-Text GLabel 9400 5600 2    60   Input ~ 0
-GPIO_10
-Text GLabel 9400 5700 2    60   Input ~ 0
-GPIO_11
-Text GLabel 9400 5800 2    60   Input ~ 0
-GPIO_12
-Text GLabel 9400 5900 2    60   Input ~ 0
-GPIO_13
-Text GLabel 9400 6000 2    60   Input ~ 0
-GPIO_14
 Wire Wire Line
 	1100 5400 1200 5400
 Wire Wire Line

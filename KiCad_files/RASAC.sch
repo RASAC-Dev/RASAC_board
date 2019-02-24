@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 9
 Title "Reconfigurable Application-Specific Accelerator Card"
 Date "2018-11-27"
 Rev "1.0"
@@ -63,11 +63,5 @@ S 8400 4550 1550 900
 U 5C14F3D5
 F0 "HDMI_VGA" 60
 F1 "HDMI_VGA.sch" 60
-$EndSheet
-$Sheet
-S 3100 5800 1450 1000
-U 5C199E81
-F0 "GPIO_USB" 60
-F1 "GPIO_USB.sch" 60
 $EndSheet
 $EndSCHEMATC
