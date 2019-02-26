@@ -132,12 +132,10 @@ Connection ~ 5350 4900
 Wire Wire Line
 	5250 5000 5350 5000
 Connection ~ 5350 5000
-Text GLabel 5450 2050 2    60   Input ~ 0
+Text GLabel 5450 2100 2    60   Input ~ 0
 PCIe_PRSNT_B
 Wire Wire Line
-	5250 2100 5250 2050
-Wire Wire Line
-	5250 2050 5450 2050
+	5250 2100 5450 2100
 Wire Wire Line
 	2850 3900 3050 3900
 Text GLabel 2850 5300 0    60   Input ~ 0
@@ -535,6 +533,8 @@ $Comp
 L custom:XC7A35T_CSG325 U1
 U 5 1 5C173C24
 P 7900 4500
+AR Path="/5C173C24" Ref="U1"  Part="5" 
+AR Path="/5BFDC338/5C173C24" Ref="U1"  Part="5" 
 F 0 "U1" H 7900 4200 60  0000 C CNN
 F 1 "XC7A35T_CSG325" H 7900 4300 60  0000 C CNN
 F 2 "" H 8200 6250 60  0001 C CNN

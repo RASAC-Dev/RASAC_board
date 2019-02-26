@@ -572,6 +572,8 @@ $Comp
 L custom:TFP410 J5
 U 1 1 5C18C3A5
 P 4550 2950
+AR Path="/5C18C3A5" Ref="J5"  Part="1" 
+AR Path="/5C14F3D5/5C18C3A5" Ref="J5"  Part="1" 
 F 0 "J5" H 5550 4100 50  0000 C CNN
 F 1 "TFP410" H 4550 2950 50  0000 C CNN
 F 2 "" H 5100 1550 50  0001 C CNN
@@ -604,7 +606,7 @@ $EndComp
 Text GLabel 4900 4400 3    60   Input ~ 0
 VCC3V3
 Text GLabel 7050 1900 0    60   Input ~ 0
-VCC5V5
+VCC5V0
 $Comp
 L power:GND #PWR0121
 U 1 1 5C18DC55
@@ -1110,6 +1112,8 @@ $Comp
 L custom:TPD12S521 U11
 U 1 1 5C60C1C8
 P 8200 1900
+AR Path="/5C60C1C8" Ref="U11"  Part="1" 
+AR Path="/5C14F3D5/5C60C1C8" Ref="U11"  Part="1" 
 F 0 "U11" H 8200 2167 50  0000 C CNN
 F 1 "TPD12S521" H 8200 2076 50  0000 C CNN
 F 2 "" H 8200 2700 50  0001 C CNN
@@ -1272,7 +1276,7 @@ $EndComp
 Wire Wire Line
 	9100 3600 9750 3600
 Text GLabel 7600 1250 1    60   Input ~ 0
-VCC5V5
+VCC5V0
 $Comp
 L power:GND #PWR0118
 U 1 1 5C72D2F1
@@ -1595,7 +1599,7 @@ I2C_SCL
 Text GLabel 4000 7000 0    60   Input ~ 0
 I2C_SDA
 Text GLabel 4600 6400 1    60   Input ~ 0
-VCC3V3
+VCC1V8
 Text GLabel 9200 1550 1    60   Input ~ 0
 HDMI5V0
 Wire Wire Line

@@ -109,7 +109,7 @@ F 3 "" H 1900 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7800 5500 0    60   Input ~ 0
-VCCO
+VCC1V8
 Wire Wire Line
 	7800 5500 7900 5500
 $Comp
@@ -124,7 +124,7 @@ F 3 "" H 2500 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2500 7050 1    60   Input ~ 0
-VCCO
+VCC1V8
 $Comp
 L power:GND #PWR099
 U 1 1 5C13C2B8
@@ -251,6 +251,8 @@ $Comp
 L custom:XC7A35T_CSG325 U1
 U 2 1 5C174C53
 P 2200 6000
+AR Path="/5C174C53" Ref="U1"  Part="2" 
+AR Path="/5C064F83/5C174C53" Ref="U1"  Part="2" 
 F 0 "U1" H 2200 5700 60  0000 C CNN
 F 1 "XC7A35T_CSG325" H 2200 5800 60  0000 C CNN
 F 2 "" H 2500 7750 60  0001 C CNN
@@ -262,6 +264,8 @@ $Comp
 L custom:XC7A35T_CSG325 U1
 U 3 1 5C174C9A
 P 5600 6000
+AR Path="/5C174C9A" Ref="U1"  Part="3" 
+AR Path="/5C064F83/5C174C9A" Ref="U1"  Part="3" 
 F 0 "U1" H 5600 5700 60  0000 C CNN
 F 1 "XC7A35T_CSG325" H 5600 5800 60  0000 C CNN
 F 2 "" H 5900 7750 60  0001 C CNN
@@ -273,6 +277,8 @@ $Comp
 L custom:XC7A35T_CSG325 U1
 U 4 1 5C174CD5
 P 8700 6000
+AR Path="/5C174CD5" Ref="U1"  Part="4" 
+AR Path="/5C064F83/5C174CD5" Ref="U1"  Part="4" 
 F 0 "U1" H 8700 5700 60  0000 C CNN
 F 1 "XC7A35T_CSG325" H 8700 5800 60  0000 C CNN
 F 2 "" H 9000 7750 60  0001 C CNN
@@ -312,66 +318,52 @@ Text GLabel 3200 2500 2    60   Input ~ 0
 VGA_HS
 Text GLabel 3200 2600 2    60   Input ~ 0
 VGA_VS
-Text GLabel 6500 2500 2    60   Input ~ 0
+Text GLabel 9400 4300 2    60   Input ~ 0
 DDR2_A0
-Text GLabel 6500 2600 2    60   Input ~ 0
+Text GLabel 9400 4400 2    60   Input ~ 0
 DDR2_A1
-Text GLabel 6500 2700 2    60   Input ~ 0
+Text GLabel 9400 4500 2    60   Input ~ 0
 DDR2_A2
-Text GLabel 6500 2800 2    60   Input ~ 0
+Text GLabel 9400 4600 2    60   Input ~ 0
 DDR2_A3
-Text GLabel 6500 2900 2    60   Input ~ 0
+Text GLabel 9400 4700 2    60   Input ~ 0
 DDR2_A4
-Text GLabel 6500 3000 2    60   Input ~ 0
+Text GLabel 9400 4800 2    60   Input ~ 0
 DDR2_A5
-Text GLabel 6500 3100 2    60   Input ~ 0
+Text GLabel 9400 4900 2    60   Input ~ 0
 DDR2_A6
-Text GLabel 6500 3200 2    60   Input ~ 0
+Text GLabel 9400 5000 2    60   Input ~ 0
 DDR2_A7
-Text GLabel 6500 3300 2    60   Input ~ 0
+Text GLabel 9400 5100 2    60   Input ~ 0
 DDR2_A8
-Text GLabel 6500 3400 2    60   Input ~ 0
+Text GLabel 9400 5200 2    60   Input ~ 0
 DDR2_A9
-Text GLabel 6500 3500 2    60   Input ~ 0
+Text GLabel 9400 5300 2    60   Input ~ 0
 DDR2_A10
-Text GLabel 6500 3600 2    60   Input ~ 0
+Text GLabel 9400 5400 2    60   Input ~ 0
 DDR2_A11
-Text GLabel 6500 3700 2    60   Input ~ 0
+Text GLabel 9400 5500 2    60   Input ~ 0
 DDR2_A12
-Text GLabel 6500 3800 2    60   Input ~ 0
+Text GLabel 9400 5600 2    60   Input ~ 0
 DDR2_A13
-Text GLabel 6500 3900 2    60   Input ~ 0
-DDR2_A14_WE_B
-Text GLabel 6500 4000 2    60   Input ~ 0
-DDR2_A15_CAS_B
-Text GLabel 6500 4100 2    60   Input ~ 0
-DDR2_A16_RAS_B
-Text GLabel 6500 4200 2    60   Input ~ 0
-DDR2_BA0
-Text GLabel 6500 4300 2    60   Input ~ 0
-DDR2_BA1
-Text GLabel 6500 4400 2    60   Input ~ 0
-DDR2_BG0
-Text GLabel 6500 4500 2    60   Input ~ 0
-DDR2_CK_T
-Text GLabel 6500 4600 2    60   Input ~ 0
-DDR2_CK_C
-Text GLabel 6500 4700 2    60   Input ~ 0
-DDR2_CKE
-Text GLabel 6500 4800 2    60   Input ~ 0
-DDR2_ACT_N
-Text GLabel 6500 4900 2    60   Input ~ 0
-DDR2_TEN
 Text GLabel 6500 5000 2    60   Input ~ 0
-DDR2_ALERT_N
+DDR2_WE_B
 Text GLabel 6500 5100 2    60   Input ~ 0
-DDR2_PAR
+DDR2_CAS_B
 Text GLabel 6500 5200 2    60   Input ~ 0
-DDR2_RESET_N
-Text GLabel 6500 5300 2    60   Input ~ 0
-DDR2_ODT
-Text GLabel 6500 5400 2    60   Input ~ 0
-DDR2_CS_N
+DDR2_RAS_B
+Text GLabel 9400 5700 2    60   Input ~ 0
+DDR2_BA0
+Text GLabel 9400 5800 2    60   Input ~ 0
+DDR2_BA1
+Text GLabel 9400 5900 2    60   Input ~ 0
+DDR2_BA2
+Text GLabel 6500 5900 2    60   Input ~ 0
+DDR2_CK_T
+Text GLabel 6500 6000 2    60   Input ~ 0
+DDR2_CK_C
+Text GLabel 9400 6000 2    60   Input ~ 0
+DDR2_CKE
 Text GLabel 9400 1100 2    60   Input ~ 0
 DDR2_DQ0
 Text GLabel 9400 1200 2    60   Input ~ 0
@@ -404,18 +396,6 @@ Text GLabel 9400 2500 2    60   Input ~ 0
 DDR2_DQ14
 Text GLabel 9400 2600 2    60   Input ~ 0
 DDR2_DQ15
-Text GLabel 9400 4300 2    60   Input ~ 0
-DDR2_DQS0_T
-Text GLabel 9400 4400 2    60   Input ~ 0
-DDR2_DQS0_C
-Text GLabel 9400 4500 2    60   Input ~ 0
-DDR2_DQS1_T
-Text GLabel 9400 4600 2    60   Input ~ 0
-DDR2_DQS1_C
-Text GLabel 6500 5500 2    60   Input ~ 0
-DDR2_DM0
-Text GLabel 6500 5600 2    60   Input ~ 0
-DDR2_DM1
 Text GLabel 9400 2700 2    60   Input ~ 0
 DDR2_DQ16
 Text GLabel 9400 2800 2    60   Input ~ 0
@@ -448,18 +428,6 @@ Text GLabel 9400 4100 2    60   Input ~ 0
 DDR2_DQ30
 Text GLabel 9400 4200 2    60   Input ~ 0
 DDR2_DQ31
-Text GLabel 9400 4700 2    60   Input ~ 0
-DDR2_DQS2_T
-Text GLabel 9400 4800 2    60   Input ~ 0
-DDR2_DQS2_C
-Text GLabel 9400 4900 2    60   Input ~ 0
-DDR2_DQS3_T
-Text GLabel 9400 5000 2    60   Input ~ 0
-DDR2_DQS3_C
-Text GLabel 6500 5700 2    60   Input ~ 0
-DDR2_DM2
-Text GLabel 6500 5800 2    60   Input ~ 0
-DDR2_DM3
 Wire Wire Line
 	1100 5400 1200 5400
 Wire Wire Line
@@ -494,4 +462,45 @@ Wire Wire Line
 	7900 5700 7900 5800
 Wire Wire Line
 	7900 5600 7900 5700
+Text GLabel 6500 5300 2    60   Input ~ 0
+DDR2_DQSL_T
+Text GLabel 6500 5400 2    60   Input ~ 0
+DDR2_DQSL_C
+Text GLabel 6500 5500 2    60   Input ~ 0
+DDR2_DQSU_T
+Text GLabel 6500 5600 2    60   Input ~ 0
+DDR2_DQSU_C
+Text GLabel 6500 5800 2    60   Input ~ 0
+DDR2_DMU
+Text GLabel 6500 5700 2    60   Input ~ 0
+DDR2_DML
+NoConn ~ 6500 2500
+NoConn ~ 6500 2600
+NoConn ~ 6500 2700
+NoConn ~ 6500 2800
+NoConn ~ 6500 2900
+NoConn ~ 6500 3000
+NoConn ~ 6500 3100
+NoConn ~ 6500 3200
+NoConn ~ 6500 3300
+NoConn ~ 6500 3400
+NoConn ~ 6500 3500
+NoConn ~ 6500 3600
+NoConn ~ 6500 3700
+NoConn ~ 6500 3800
+NoConn ~ 6500 3900
+NoConn ~ 6500 4000
+NoConn ~ 6500 4100
+NoConn ~ 6500 4200
+NoConn ~ 6500 4300
+NoConn ~ 6500 4400
+NoConn ~ 6500 4500
+NoConn ~ 6500 4600
+NoConn ~ 6500 4700
+NoConn ~ 6500 4800
+NoConn ~ 6500 4900
+Text GLabel 6500 2400 2    60   Input ~ 0
+I2C_SCL
+Text GLabel 6500 2300 2    60   Input ~ 0
+I2C_SDA
 $EndSCHEMATC
