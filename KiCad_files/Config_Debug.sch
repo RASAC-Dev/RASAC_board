@@ -630,7 +630,7 @@ NoConn ~ 1800 6250
 NoConn ~ 1800 6150
 NoConn ~ 1800 5350
 NoConn ~ 1800 5250
-Text GLabel 2000 5050 2    60   Input ~ 0
+Text GLabel 2000 4800 2    60   Input ~ 0
 USB_VBUS_1
 Text GLabel 2000 5550 2    60   Input ~ 0
 USB_DM_1
@@ -1590,4 +1590,29 @@ Text GLabel 6450 3450 1    60   Input ~ 0
 RxD_LED
 Wire Wire Line
 	1800 5050 2000 5050
+Text GLabel 2000 5300 2    60   Input ~ 0
+VCC5V0
+$Comp
+L Connector_Generic:Conn_01x03 J12
+U 1 1 5C7E7D5A
+P 2200 5050
+F 0 "J12" H 2280 5046 50  0000 L CNN
+F 1 "Conn_01x03" H 2280 5001 50  0001 L CNN
+F 2 "" H 2200 5050 50  0001 C CNN
+F 3 "~" H 2200 5050 50  0001 C CNN
+	1    2200 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5150 1950 5150
+Wire Wire Line
+	1950 5150 1950 5300
+Wire Wire Line
+	1950 5300 2000 5300
+Wire Wire Line
+	2000 4950 1950 4950
+Wire Wire Line
+	1950 4950 1950 4800
+Wire Wire Line
+	1950 4800 2000 4800
 $EndSCHEMATC
