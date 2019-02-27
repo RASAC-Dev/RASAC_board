@@ -2826,7 +2826,7 @@ Connection ~ 9950 4700
 Wire Wire Line
 	9950 4700 9900 4700
 Wire Wire Line
-	9700 5950 9900 5950
+	9700 5950 9850 5950
 $Comp
 L custom:LM2676 U13
 U 1 1 5C81CD56
@@ -3054,10 +3054,10 @@ Connection ~ 6100 5200
 Wire Wire Line
 	6100 5200 6150 5200
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP6
 U 1 1 5C9BB41C
 P 2850 1000
-F 0 "TP?" H 2908 1074 50  0000 L CNN
+F 0 "TP6" H 2908 1074 50  0000 L CNN
 F 1 "TestPoint" H 2908 1029 50  0001 L CNN
 F 2 "" H 3050 1000 50  0001 C CNN
 F 3 "~" H 3050 1000 50  0001 C CNN
@@ -3065,10 +3065,10 @@ F 3 "~" H 3050 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 5C9BB751
 P 1650 2000
-F 0 "TP?" H 1708 2074 50  0000 L CNN
+F 0 "TP1" H 1708 2074 50  0000 L CNN
 F 1 "TestPoint" H 1708 2029 50  0001 L CNN
 F 2 "" H 1850 2000 50  0001 C CNN
 F 3 "~" H 1850 2000 50  0001 C CNN
@@ -3076,10 +3076,10 @@ F 3 "~" H 1850 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP2
 U 1 1 5C9EF58A
 P 1650 2900
-F 0 "TP?" H 1708 2974 50  0000 L CNN
+F 0 "TP2" H 1708 2974 50  0000 L CNN
 F 1 "TestPoint" H 1708 2929 50  0001 L CNN
 F 2 "" H 1850 2900 50  0001 C CNN
 F 3 "~" H 1850 2900 50  0001 C CNN
@@ -3087,10 +3087,10 @@ F 3 "~" H 1850 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP3
 U 1 1 5CA251A2
 P 1650 3600
-F 0 "TP?" H 1708 3674 50  0000 L CNN
+F 0 "TP3" H 1708 3674 50  0000 L CNN
 F 1 "TestPoint" H 1708 3629 50  0001 L CNN
 F 2 "" H 1850 3600 50  0001 C CNN
 F 3 "~" H 1850 3600 50  0001 C CNN
@@ -3098,10 +3098,10 @@ F 3 "~" H 1850 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP4
 U 1 1 5CA58FD9
 P 1650 4400
-F 0 "TP?" H 1708 4474 50  0000 L CNN
+F 0 "TP4" H 1708 4474 50  0000 L CNN
 F 1 "TestPoint" H 1708 4429 50  0001 L CNN
 F 2 "" H 1850 4400 50  0001 C CNN
 F 3 "~" H 1850 4400 50  0001 C CNN
@@ -3109,10 +3109,10 @@ F 3 "~" H 1850 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP7
 U 1 1 5CA8CE03
 P 3050 3100
-F 0 "TP?" H 3108 3174 50  0000 L CNN
+F 0 "TP7" H 3108 3174 50  0000 L CNN
 F 1 "TestPoint" H 3108 3129 50  0001 L CNN
 F 2 "" H 3250 3100 50  0001 C CNN
 F 3 "~" H 3250 3100 50  0001 C CNN
@@ -3120,10 +3120,10 @@ F 3 "~" H 3250 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP9
 U 1 1 5CAC0C2A
 P 4100 3450
-F 0 "TP?" H 4158 3524 50  0000 L CNN
+F 0 "TP9" H 4158 3524 50  0000 L CNN
 F 1 "TestPoint" H 4158 3479 50  0001 L CNN
 F 2 "" H 4300 3450 50  0001 C CNN
 F 3 "~" H 4300 3450 50  0001 C CNN
@@ -3131,10 +3131,10 @@ F 3 "~" H 4300 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP10
 U 1 1 5CAF4A62
 P 5500 3450
-F 0 "TP?" H 5558 3524 50  0000 L CNN
+F 0 "TP10" H 5558 3524 50  0000 L CNN
 F 1 "TestPoint" H 5558 3479 50  0001 L CNN
 F 2 "" H 5700 3450 50  0001 C CNN
 F 3 "~" H 5700 3450 50  0001 C CNN
@@ -3142,10 +3142,10 @@ F 3 "~" H 5700 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP11
 U 1 1 5CB28A0D
 P 6100 5200
-F 0 "TP?" H 6158 5274 50  0000 L CNN
+F 0 "TP11" H 6158 5274 50  0000 L CNN
 F 1 "TestPoint" H 6158 5229 50  0001 L CNN
 F 2 "" H 6300 5200 50  0001 C CNN
 F 3 "~" H 6300 5200 50  0001 C CNN
@@ -3153,10 +3153,10 @@ F 3 "~" H 6300 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP8
 U 1 1 5CB5C849
 P 3200 5300
-F 0 "TP?" H 3258 5374 50  0000 L CNN
+F 0 "TP8" H 3258 5374 50  0000 L CNN
 F 1 "TestPoint" H 3258 5329 50  0001 L CNN
 F 2 "" H 3400 5300 50  0001 C CNN
 F 3 "~" H 3400 5300 50  0001 C CNN
@@ -3164,10 +3164,10 @@ F 3 "~" H 3400 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP5
 U 1 1 5CB90682
 P 2000 5300
-F 0 "TP?" H 2058 5374 50  0000 L CNN
+F 0 "TP5" H 2058 5374 50  0000 L CNN
 F 1 "TestPoint" H 2058 5329 50  0001 L CNN
 F 2 "" H 2200 5300 50  0001 C CNN
 F 3 "~" H 2200 5300 50  0001 C CNN
@@ -3175,10 +3175,10 @@ F 3 "~" H 2200 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP16
 U 1 1 5CBC458C
 P 9700 5250
-F 0 "TP?" H 9758 5324 50  0000 L CNN
+F 0 "TP16" H 9758 5324 50  0000 L CNN
 F 1 "TestPoint" H 9758 5279 50  0001 L CNN
 F 2 "" H 9900 5250 50  0001 C CNN
 F 3 "~" H 9900 5250 50  0001 C CNN
@@ -3186,10 +3186,10 @@ F 3 "~" H 9900 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP15
 U 1 1 5CBF8429
 P 9300 5700
-F 0 "TP?" V 9403 5774 50  0000 C CNN
+F 0 "TP15" V 9403 5774 50  0000 C CNN
 F 1 "TestPoint" H 9358 5729 50  0001 L CNN
 F 2 "" H 9500 5700 50  0001 C CNN
 F 3 "~" H 9500 5700 50  0001 C CNN
@@ -3197,10 +3197,10 @@ F 3 "~" H 9500 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP17
 U 1 1 5CCC7F9F
 P 9850 5950
-F 0 "TP?" H 9908 6024 50  0000 L CNN
+F 0 "TP17" H 9908 6024 50  0000 L CNN
 F 1 "TestPoint" H 9908 5979 50  0001 L CNN
 F 2 "" H 10050 5950 50  0001 C CNN
 F 3 "~" H 10050 5950 50  0001 C CNN
@@ -3208,10 +3208,10 @@ F 3 "~" H 10050 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP12
 U 1 1 5CD31CE2
 P 6750 1600
-F 0 "TP?" H 6808 1674 50  0000 L CNN
+F 0 "TP12" H 6808 1674 50  0000 L CNN
 F 1 "TestPoint" H 6808 1629 50  0001 L CNN
 F 2 "" H 6950 1600 50  0001 C CNN
 F 3 "~" H 6950 1600 50  0001 C CNN
@@ -3219,10 +3219,10 @@ F 3 "~" H 6950 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP13
 U 1 1 5CD65B1A
 P 6750 3200
-F 0 "TP?" H 6808 3274 50  0000 L CNN
+F 0 "TP13" H 6808 3274 50  0000 L CNN
 F 1 "TestPoint" H 6808 3229 50  0001 L CNN
 F 2 "" H 6950 3200 50  0001 C CNN
 F 3 "~" H 6950 3200 50  0001 C CNN
@@ -3230,14 +3230,17 @@ F 3 "~" H 6950 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP14
 U 1 1 5CD99A27
 P 6750 4800
-F 0 "TP?" H 6808 4874 50  0000 L CNN
+F 0 "TP14" H 6808 4874 50  0000 L CNN
 F 1 "TestPoint" H 6808 4829 50  0001 L CNN
 F 2 "" H 6950 4800 50  0001 C CNN
 F 3 "~" H 6950 4800 50  0001 C CNN
 	1    6750 4800
 	1    0    0    -1  
 $EndComp
+Connection ~ 9850 5950
+Wire Wire Line
+	9850 5950 9900 5950
 $EndSCHEMATC
