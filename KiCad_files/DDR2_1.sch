@@ -568,4 +568,26 @@ F 3 "" H 5900 2550 50  0001 C CNN
 	1    5900 3900
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CE9365C
+P 3400 6550
+F 0 "TP?" H 3458 6624 50  0000 L CNN
+F 1 "TestPoint" H 3458 6579 50  0001 L CNN
+F 2 "" H 3600 6550 50  0001 C CNN
+F 3 "~" H 3600 6550 50  0001 C CNN
+	1    3400 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CE96F0C
+P 5200 1350
+F 0 "TP?" H 5258 1424 50  0000 L CNN
+F 1 "TestPoint" H 5258 1379 50  0001 L CNN
+F 2 "" H 5400 1350 50  0001 C CNN
+F 3 "~" H 5400 1350 50  0001 C CNN
+	1    5200 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -419,7 +419,7 @@ Connection ~ 8300 800
 Wire Wire Line
 	8100 1150 8100 1200
 Connection ~ 8100 1200
-Text GLabel 9600 2150 2    60   Input ~ 0
+Text GLabel 10100 2150 2    60   Input ~ 0
 EMCCLK
 Text GLabel 9450 2000 2    60   Input ~ 0
 VCC3V3
@@ -1753,8 +1753,6 @@ F 3 "~" H 9550 2350 50  0001 C CNN
 	1    9550 2350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9600 2150 9550 2150
 $Comp
 L Connector_Generic:Conn_02x03_Counter_Clockwise J?
 U 1 1 5C8D400A
@@ -1796,4 +1794,85 @@ Wire Wire Line
 	9100 5700 9250 5700
 Connection ~ 9100 5300
 Connection ~ 9250 5700
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CDCFA60
+P 3150 1300
+AR Path="/5BFDDAF0/5CDCFA60" Ref="TP?"  Part="1" 
+AR Path="/5C0630AC/5CDCFA60" Ref="TP?"  Part="1" 
+F 0 "TP?" H 3208 1374 50  0000 L CNN
+F 1 "TestPoint" H 3208 1329 50  0001 L CNN
+F 2 "" H 3350 1300 50  0001 C CNN
+F 3 "~" H 3350 1300 50  0001 C CNN
+	1    3150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CDE48B6
+P 9100 3600
+AR Path="/5BFDDAF0/5CDE48B6" Ref="TP?"  Part="1" 
+AR Path="/5C0630AC/5CDE48B6" Ref="TP?"  Part="1" 
+F 0 "TP?" H 9158 3674 50  0000 L CNN
+F 1 "TestPoint" H 9158 3629 50  0001 L CNN
+F 2 "" H 9300 3600 50  0001 C CNN
+F 3 "~" H 9300 3600 50  0001 C CNN
+	1    9100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CDF99BD
+P 9750 800
+AR Path="/5BFDDAF0/5CDF99BD" Ref="TP?"  Part="1" 
+AR Path="/5C0630AC/5CDF99BD" Ref="TP?"  Part="1" 
+F 0 "TP?" H 9808 874 50  0000 L CNN
+F 1 "TestPoint" H 9808 829 50  0001 L CNN
+F 2 "" H 9950 800 50  0001 C CNN
+F 3 "~" H 9950 800 50  0001 C CNN
+	1    9750 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CE0E801
+P 9450 1750
+AR Path="/5BFDDAF0/5CE0E801" Ref="TP?"  Part="1" 
+AR Path="/5C0630AC/5CE0E801" Ref="TP?"  Part="1" 
+F 0 "TP?" H 9508 1824 50  0000 L CNN
+F 1 "TestPoint" H 9508 1779 50  0001 L CNN
+F 2 "" H 9650 1750 50  0001 C CNN
+F 3 "~" H 9650 1750 50  0001 C CNN
+	1    9450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CE384ED
+P 9150 2600
+AR Path="/5BFDDAF0/5CE384ED" Ref="TP?"  Part="1" 
+AR Path="/5C0630AC/5CE384ED" Ref="TP?"  Part="1" 
+F 0 "TP?" H 9208 2674 50  0000 L CNN
+F 1 "TestPoint" H 9208 2629 50  0001 L CNN
+F 2 "" H 9350 2600 50  0001 C CNN
+F 3 "~" H 9350 2600 50  0001 C CNN
+	1    9150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CE6965B
+P 10000 2150
+F 0 "TP?" H 10058 2224 50  0000 L CNN
+F 1 "TestPoint" H 10058 2179 50  0001 L CNN
+F 2 "" H 10200 2150 50  0001 C CNN
+F 3 "~" H 10200 2150 50  0001 C CNN
+	1    10000 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2150 10000 2150
+Connection ~ 10000 2150
+Wire Wire Line
+	10000 2150 10100 2150
 $EndSCHEMATC

@@ -1608,7 +1608,7 @@ Connection ~ 9200 1600
 Text GLabel 8300 1250 1    60   Input ~ 0
 HDMI5V0
 Text GLabel 4800 6400 1    60   Input ~ 0
-HDMI5V0
+VCC5V0
 $Comp
 L Device:R R93
 U 1 1 5C8336A8
@@ -1700,4 +1700,35 @@ Wire Wire Line
 	7150 3500 7300 3500
 Wire Wire Line
 	7300 3600 7150 3600
+$Comp
+L Device:C_Small C?
+U 1 1 5C996DF4
+P 6900 1350
+F 0 "C?" H 6992 1396 50  0000 L CNN
+F 1 "1u" H 6992 1305 50  0000 L CNN
+F 2 "" H 6900 1350 50  0001 C CNN
+F 3 "~" H 6900 1350 50  0001 C CNN
+	1    6900 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 6900 1250 1    60   Input ~ 0
+VCC5V0
+$Comp
+L Device:C_Small C?
+U 1 1 5C996DFC
+P 7250 1350
+F 0 "C?" H 7342 1396 50  0000 L CNN
+F 1 "1u" H 7342 1305 50  0000 L CNN
+F 2 "" H 7250 1350 50  0001 C CNN
+F 3 "~" H 7250 1350 50  0001 C CNN
+	1    7250 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 1250 1    60   Input ~ 0
+VCC3V3
+Wire Wire Line
+	7600 1450 7250 1450
+Wire Wire Line
+	7250 1450 6900 1450
+Connection ~ 7250 1450
 $EndSCHEMATC
