@@ -29,12 +29,12 @@ Page 7 of AC791 Eval Board Schematics\nPage 27 of  7 Series Package and Pinout (
 $Comp
 L power:GND #PWR086
 U 1 1 5C09142B
-P 9100 5700
-F 0 "#PWR086" H 9100 5450 50  0001 C CNN
-F 1 "GND" H 9100 5550 50  0001 C CNN
-F 2 "" H 9100 5700 50  0001 C CNN
-F 3 "" H 9100 5700 50  0001 C CNN
-	1    9100 5700
+P 9250 5800
+F 0 "#PWR086" H 9250 5550 50  0001 C CNN
+F 1 "GND" H 9250 5650 50  0001 C CNN
+F 2 "" H 9250 5800 50  0001 C CNN
+F 3 "" H 9250 5800 50  0001 C CNN
+	1    9250 5800
 	1    0    0    -1  
 $EndComp
 Text GLabel 9200 3600 2    60   Input ~ 0
@@ -45,7 +45,7 @@ Text Notes 9200 4300 0    60   ~ 0
 See pages 16 and 28 of document UG480
 Text Notes 9200 4100 0    60   ~ 0
 See page 31 of document UG475
-Text GLabel 9300 5400 2    60   Input ~ 0
+Text GLabel 9400 5200 2    60   Input ~ 0
 VCCO
 $Comp
 L Device:R R23
@@ -189,7 +189,7 @@ F 3 "" H 8950 1500 60  0001 C CNN
 	1    8950 1350
 	1    0    0    -1  
 $EndComp
-Text GLabel 10050 800  2    60   Input ~ 0
+Text GLabel 10300 800  2    60   Input ~ 0
 VCC3V3
 $Comp
 L Device:R R20
@@ -223,7 +223,6 @@ Wire Wire Line
 	9100 3700 9100 3800
 Wire Wire Line
 	9000 3700 9100 3700
-Connection ~ 9100 5300
 Wire Wire Line
 	9000 4500 9200 4500
 Wire Wire Line
@@ -246,19 +245,6 @@ Connection ~ 9100 4200
 Wire Wire Line
 	9000 4300 9100 4300
 Connection ~ 9100 4300
-Wire Wire Line
-	9000 5500 9100 5500
-Connection ~ 9100 5500
-Wire Wire Line
-	9000 5600 9100 5600
-Connection ~ 9100 5600
-Wire Wire Line
-	9000 5400 9200 5400
-Wire Wire Line
-	9000 5200 9200 5200
-Wire Wire Line
-	9200 5200 9200 5400
-Connection ~ 9200 5400
 Wire Wire Line
 	9950 4950 9950 5000
 Wire Wire Line
@@ -433,7 +419,7 @@ Connection ~ 8300 800
 Wire Wire Line
 	8100 1150 8100 1200
 Connection ~ 8100 1200
-Text GLabel 9450 2150 2    60   Input ~ 0
+Text GLabel 9600 2150 2    60   Input ~ 0
 EMCCLK
 Text GLabel 9450 2000 2    60   Input ~ 0
 VCC3V3
@@ -665,7 +651,7 @@ F 3 "" H 3350 5600 50  0001 C CNN
 	1    3350 5600
 	1    0    0    -1  
 $EndComp
-Text GLabel 3350 1300 0    60   Input ~ 0
+Text GLabel 2800 1300 0    60   Input ~ 0
 VCC3V3
 Text GLabel 3350 2600 0    60   Input ~ 0
 VCC1V8
@@ -1097,8 +1083,6 @@ Wire Wire Line
 	3350 5500 3450 5500
 Connection ~ 3350 5500
 Wire Wire Line
-	3350 1300 3400 1300
-Wire Wire Line
 	3400 1300 3400 1400
 Wire Wire Line
 	3400 1600 3450 1600
@@ -1234,8 +1218,6 @@ F 3 "" H 5950 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 5300 9100 5500
-Wire Wire Line
 	9100 3800 9100 3900
 Wire Wire Line
 	9100 3900 9100 4000
@@ -1244,11 +1226,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 4300 9100 5300
 Wire Wire Line
-	9100 5500 9100 5600
-Wire Wire Line
-	9100 5600 9100 5700
-Wire Wire Line
-	9200 5400 9300 5400
+	9250 5700 9250 5800
 Wire Wire Line
 	9950 5000 9950 5150
 Wire Wire Line
@@ -1267,8 +1245,6 @@ Wire Wire Line
 	9750 800  9950 800 
 Wire Wire Line
 	9600 800  9750 800 
-Wire Wire Line
-	9950 800  10050 800 
 Wire Wire Line
 	8300 800  9600 800 
 Wire Wire Line
@@ -1615,4 +1591,209 @@ Wire Wire Line
 	1950 4950 1950 4800
 Wire Wire Line
 	1950 4800 2000 4800
+$Comp
+L Device:C C?
+U 1 1 5C7A8FC9
+P 7700 4850
+AR Path="/5C064F83/5C7A8FC9" Ref="C?"  Part="1" 
+AR Path="/5C0630AC/5C7A8FC9" Ref="C?"  Part="1" 
+F 0 "C?" H 7725 4950 50  0000 L CNN
+F 1 "100uF" H 7725 4750 50  0000 L CNN
+F 2 "" H 7738 4700 50  0001 C CNN
+F 3 "" H 7700 4850 50  0001 C CNN
+	1    7700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C7A8FD0
+P 7700 5000
+AR Path="/5C064F83/5C7A8FD0" Ref="#PWR?"  Part="1" 
+AR Path="/5C0630AC/5C7A8FD0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7700 4750 50  0001 C CNN
+F 1 "GND" H 7700 4850 50  0001 C CNN
+F 2 "" H 7700 5000 50  0001 C CNN
+F 3 "" H 7700 5000 50  0001 C CNN
+	1    7700 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4700 7700 4700
+$Comp
+L Device:C C?
+U 1 1 5C7BFE87
+P 10200 1000
+F 0 "C?" H 10225 1100 50  0000 L CNN
+F 1 "10uF" H 10225 900 50  0000 L CNN
+F 2 "" H 10238 850 50  0001 C CNN
+F 3 "" H 10200 1000 50  0001 C CNN
+	1    10200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C7BFE8E
+P 10200 1150
+F 0 "#PWR?" H 10200 900 50  0001 C CNN
+F 1 "GND" H 10200 1000 50  0001 C CNN
+F 2 "" H 10200 1150 50  0001 C CNN
+F 3 "" H 10200 1150 50  0001 C CNN
+	1    10200 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 850  10200 800 
+Wire Wire Line
+	9950 800  10200 800 
+Connection ~ 10200 800 
+Wire Wire Line
+	10200 800  10300 800 
+$Comp
+L Device:C C?
+U 1 1 5C7EA238
+P 7900 2800
+F 0 "C?" H 7925 2900 50  0000 L CNN
+F 1 "1uF" H 7925 2700 50  0000 L CNN
+F 2 "" H 7938 2650 50  0001 C CNN
+F 3 "" H 7900 2800 50  0001 C CNN
+	1    7900 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2950 7900 3000
+Wire Wire Line
+	7900 3000 8150 3000
+Connection ~ 8150 3000
+Wire Wire Line
+	8150 2600 7900 2600
+Wire Wire Line
+	7900 2600 7900 2650
+Connection ~ 8150 2600
+$Comp
+L Device:C C?
+U 1 1 5C81375F
+P 7950 1950
+F 0 "C?" H 7975 2050 50  0000 L CNN
+F 1 "1uF" H 7975 1850 50  0000 L CNN
+F 2 "" H 7988 1800 50  0001 C CNN
+F 3 "" H 7950 1950 50  0001 C CNN
+	1    7950 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1800 7950 1750
+Wire Wire Line
+	7950 1750 8200 1750
+Connection ~ 8200 1750
+Wire Wire Line
+	8200 2150 7950 2150
+Wire Wire Line
+	7950 2150 7950 2100
+Connection ~ 8200 2150
+$Comp
+L Device:C C?
+U 1 1 5C83BC44
+P 3150 1450
+F 0 "C?" H 3175 1550 50  0000 L CNN
+F 1 "10uF" H 3175 1350 50  0000 L CNN
+F 2 "" H 3188 1300 50  0001 C CNN
+F 3 "" H 3150 1450 50  0001 C CNN
+	1    3150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C83BC4B
+P 3150 1600
+F 0 "#PWR?" H 3150 1350 50  0001 C CNN
+F 1 "GND" H 3150 1450 50  0001 C CNN
+F 2 "" H 3150 1600 50  0001 C CNN
+F 3 "" H 3150 1600 50  0001 C CNN
+	1    3150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C84FF3B
+P 2900 1450
+F 0 "C?" H 2925 1550 50  0000 L CNN
+F 1 "10uF" H 2925 1350 50  0000 L CNN
+F 2 "" H 2938 1300 50  0001 C CNN
+F 3 "" H 2900 1450 50  0001 C CNN
+	1    2900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C84FF42
+P 2900 1600
+F 0 "#PWR?" H 2900 1350 50  0001 C CNN
+F 1 "GND" H 2900 1450 50  0001 C CNN
+F 2 "" H 2900 1600 50  0001 C CNN
+F 3 "" H 2900 1600 50  0001 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1300 2900 1300
+Connection ~ 2900 1300
+Wire Wire Line
+	2900 1300 3150 1300
+Connection ~ 3150 1300
+Wire Wire Line
+	3150 1300 3400 1300
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C87AC76
+P 9550 2350
+F 0 "J?" V 9469 2430 50  0000 L CNN
+F 1 "Conn_01x02" V 9514 2430 50  0001 L CNN
+F 2 "" H 9550 2350 50  0001 C CNN
+F 3 "~" H 9550 2350 50  0001 C CNN
+	1    9550 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 2150 9550 2150
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J?
+U 1 1 5C8D400A
+P 9200 5500
+F 0 "J?" H 9250 5725 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 9250 5726 50  0001 C CNN
+F 2 "" H 9200 5500 50  0001 C CNN
+F 3 "~" H 9200 5500 50  0001 C CNN
+	1    9200 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 5200 9350 5200
+Wire Wire Line
+	9350 5200 9350 5300
+Wire Wire Line
+	9350 5300 9550 5300
+Wire Wire Line
+	9550 5300 9550 5400
+Wire Wire Line
+	9550 5400 9500 5400
+Connection ~ 9350 5200
+Wire Wire Line
+	9350 5200 9400 5200
+Wire Wire Line
+	9500 5500 9550 5500
+Wire Wire Line
+	9550 5500 9550 5600
+Wire Wire Line
+	9550 5700 9250 5700
+Wire Wire Line
+	9500 5600 9550 5600
+Connection ~ 9550 5600
+Wire Wire Line
+	9550 5600 9550 5700
+Wire Wire Line
+	9100 5300 9100 5700
+Wire Wire Line
+	9100 5700 9250 5700
+Connection ~ 9100 5300
+Connection ~ 9250 5700
 $EndSCHEMATC
