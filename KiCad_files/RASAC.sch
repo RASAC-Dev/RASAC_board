@@ -2,11 +2,11 @@ EESchema Schematic File Version 4
 LIBS:RASAC-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 1 9
 Title "Reconfigurable Application-Specific Accelerator Card"
-Date "2019-02-26"
+Date "2019-02-27"
 Rev "1.0"
 Comp "Brian Hong & Jasmine Tang"
 Comment1 ""
@@ -59,7 +59,7 @@ F0 "DDR2_2" 60
 F1 "DDR2_2.sch" 60
 $EndSheet
 $Sheet
-S 8400 4550 1550 900 
+S 8400 4550 1350 950 
 U 5C14F3D5
 F0 "HDMI_VGA" 60
 F1 "HDMI_VGA.sch" 60

@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title "Reconfigurable Application-Specific Accelerator Card"
-Date "2019-02-26"
+Date "2019-02-27"
 Rev "1.0"
 Comp "Brian Hong & Jasmine Tang"
 Comment1 ""

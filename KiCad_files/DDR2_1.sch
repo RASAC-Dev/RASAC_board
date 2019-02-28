@@ -2,11 +2,11 @@ EESchema Schematic File Version 4
 LIBS:RASAC-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 7 9
 Title "Reconfigurable Application-Specific Accelerator Card"
-Date "2019-02-26"
+Date "2019-02-27"
 Rev "1.0"
 Comp "Brian Hong & Jasmine Tang"
 Comment1 ""
