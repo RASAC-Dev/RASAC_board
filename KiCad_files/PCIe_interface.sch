@@ -20,7 +20,7 @@ U 1 1 5BFDC341
 P 4150 3800
 F 0 "J1" H 4150 5650 50  0000 C CNN
 F 1 "PCIe_x4_Connector" H 4150 2000 50  0000 C CNN
-F 2 "custom:PCIe_x4" H 4150 2450 50  0001 C CNN
+F 2 "custom:pciex4fingers" H 4150 2450 50  0001 C CNN
 F 3 "" H 4150 2450 50  0001 C CNN
 	1    4150 3800
 	1    0    0    -1  
