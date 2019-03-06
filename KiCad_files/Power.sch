@@ -1842,8 +1842,6 @@ Connection ~ 3050 3200
 Wire Wire Line
 	9900 1000 10000 1000
 Wire Wire Line
-	10000 1500 9950 1500
-Wire Wire Line
 	6650 1600 6750 1600
 Wire Wire Line
 	8800 850  8850 850 
@@ -1923,8 +1921,6 @@ Wire Wire Line
 Wire Wire Line
 	10000 2700 9900 2700
 Wire Wire Line
-	10000 3100 9950 3100
-Wire Wire Line
 	6650 3200 6750 3200
 Wire Wire Line
 	8800 2450 8850 2450
@@ -2003,8 +1999,6 @@ Wire Wire Line
 	9900 4200 10000 4200
 Wire Wire Line
 	10000 4300 9900 4300
-Wire Wire Line
-	10000 4700 9950 4700
 Wire Wire Line
 	6650 4800 6750 4800
 Wire Wire Line
@@ -2758,48 +2752,6 @@ Connection ~ 5500 3450
 Wire Wire Line
 	5800 3450 5650 3450
 Connection ~ 5650 3450
-$Comp
-L power:GND #PWR0122
-U 1 1 5C8C264C
-P 9950 1500
-F 0 "#PWR0122" H 9950 1250 50  0001 C CNN
-F 1 "GND" H 9950 1350 50  0001 C CNN
-F 2 "" H 9950 1500 50  0001 C CNN
-F 3 "" H 9950 1500 50  0001 C CNN
-	1    9950 1500
-	1    0    0    -1  
-$EndComp
-Connection ~ 9950 1500
-Wire Wire Line
-	9950 1500 9900 1500
-$Comp
-L power:GND #PWR0123
-U 1 1 5C8C27F3
-P 9950 3100
-F 0 "#PWR0123" H 9950 2850 50  0001 C CNN
-F 1 "GND" H 9950 2950 50  0001 C CNN
-F 2 "" H 9950 3100 50  0001 C CNN
-F 3 "" H 9950 3100 50  0001 C CNN
-	1    9950 3100
-	1    0    0    -1  
-$EndComp
-Connection ~ 9950 3100
-Wire Wire Line
-	9950 3100 9900 3100
-$Comp
-L power:GND #PWR0130
-U 1 1 5C8C2AA0
-P 9950 4700
-F 0 "#PWR0130" H 9950 4450 50  0001 C CNN
-F 1 "GND" H 9950 4550 50  0001 C CNN
-F 2 "" H 9950 4700 50  0001 C CNN
-F 3 "" H 9950 4700 50  0001 C CNN
-	1    9950 4700
-	1    0    0    -1  
-$EndComp
-Connection ~ 9950 4700
-Wire Wire Line
-	9950 4700 9900 4700
 Wire Wire Line
 	9700 5950 9850 5950
 Text GLabel 3750 5200 0    60   Input ~ 0
@@ -3206,4 +3158,10 @@ F 3 "~" H 9200 5950 50  0001 C CNN
 	1    9200 5950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9900 4700 10000 4700
+Wire Wire Line
+	9900 3100 10000 3100
+Wire Wire Line
+	9900 1500 10000 1500
 $EndSCHEMATC

@@ -600,4 +600,24 @@ PCIe_PRSNT_x4
 Wire Wire Line
 	4300 6000 3800 6000
 NoConn ~ 2850 3900
+Text Label 5450 3500 0    60   ~ 0
+REFCLK_PCIe_P
+Text Label 5450 3600 0    60   ~ 0
+REFCLK_PCIe_N
+Text Label 5450 3800 0    60   ~ 0
+PER0_P
+Text Label 5450 3900 0    60   ~ 0
+PER0_N
+Text Label 5450 4300 0    60   ~ 0
+PER1_P
+Text Label 5450 4400 0    60   ~ 0
+PER1_N
+Text Label 5450 4700 0    60   ~ 0
+PER2_P
+Text Label 5450 4800 0    60   ~ 0
+PER2_N
+Text Label 5450 5100 0    60   ~ 0
+PER3_P
+Text Label 5450 5200 0    60   ~ 0
+PER3_N
 $EndSCHEMATC

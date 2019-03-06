@@ -1,4 +1,4 @@
-(module TDFN-10_3x3mm_Pitch0.5mm (layer F.Cu) (tedit 5C772C7D)
+(module TDFN-10_3x3mm_Pitch0.5mm (layer F.Cu) (tedit 5C7E59BE)
   (descr "TDFN, 12 Pads, No exposed, http://www.st.com/resource/en/datasheet/stm6600.pdf")
   (tags DFN)
   (attr smd)
@@ -35,6 +35,11 @@
   (pad 10 smd rect (at 1.475 -1.025) (size 0.7 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 11 smd rect (at 0 0) (size 1.58 2.35) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/TDFN-12_2x3mm_Pitch0.5mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/DFN-12-1EP_3x4mm_Pitch0.5mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
