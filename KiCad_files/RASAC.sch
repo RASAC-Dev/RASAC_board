@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 9
+Sheet 1 7
 Title "Reconfigurable Application-Specific Accelerator Card"
-Date "2019-02-27"
-Rev "1.0"
+Date "2019-03-31"
+Rev "0.9"
 Comp "Brian Hong & Jasmine Tang"
 Comment1 ""
 Comment2 "Advisor: Professor Sable"
@@ -45,18 +45,6 @@ S 3100 4550 1450 950
 U 5C064F83
 F0 "Connections" 60
 F1 "Connections.sch" 60
-$EndSheet
-$Sheet
-S 4800 4550 1550 950 
-U 5C0652F6
-F0 "DDR2_1" 60
-F1 "DDR2_1.sch" 60
-$EndSheet
-$Sheet
-S 6600 4550 1550 950 
-U 5C14AAFF
-F0 "DDR2_2" 60
-F1 "DDR2_2.sch" 60
 $EndSheet
 $Sheet
 S 8400 4550 1350 950 

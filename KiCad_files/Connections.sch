@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 6 9
+Sheet 6 7
 Title "Reconfigurable Application-Specific Accelerator Card"
-Date "2019-02-27"
-Rev "1.0"
+Date "2019-03-31"
+Rev "0.9"
 Comp "Brian Hong & Jasmine Tang"
 Comment1 ""
 Comment2 "Advisor: Professor Sable"
@@ -318,116 +318,6 @@ Text GLabel 3200 2500 2    60   Input ~ 0
 VGA_HS
 Text GLabel 3200 2600 2    60   Input ~ 0
 VGA_VS
-Text GLabel 9400 4300 2    60   Input ~ 0
-DDR2_A0
-Text GLabel 9400 4400 2    60   Input ~ 0
-DDR2_A1
-Text GLabel 9400 4500 2    60   Input ~ 0
-DDR2_A2
-Text GLabel 9400 4600 2    60   Input ~ 0
-DDR2_A3
-Text GLabel 9400 4700 2    60   Input ~ 0
-DDR2_A4
-Text GLabel 9400 4800 2    60   Input ~ 0
-DDR2_A5
-Text GLabel 9400 4900 2    60   Input ~ 0
-DDR2_A6
-Text GLabel 9400 5000 2    60   Input ~ 0
-DDR2_A7
-Text GLabel 9400 5100 2    60   Input ~ 0
-DDR2_A8
-Text GLabel 9400 5200 2    60   Input ~ 0
-DDR2_A9
-Text GLabel 9400 5300 2    60   Input ~ 0
-DDR2_A10
-Text GLabel 9400 5400 2    60   Input ~ 0
-DDR2_A11
-Text GLabel 9400 5500 2    60   Input ~ 0
-DDR2_A12
-Text GLabel 9400 5600 2    60   Input ~ 0
-DDR2_A13
-Text GLabel 6500 5000 2    60   Input ~ 0
-DDR2_WE_B
-Text GLabel 6500 5100 2    60   Input ~ 0
-DDR2_CAS_B
-Text GLabel 6500 5200 2    60   Input ~ 0
-DDR2_RAS_B
-Text GLabel 9400 5700 2    60   Input ~ 0
-DDR2_BA0
-Text GLabel 9400 5800 2    60   Input ~ 0
-DDR2_BA1
-Text GLabel 9400 5900 2    60   Input ~ 0
-DDR2_BA2
-Text GLabel 6500 5900 2    60   Input ~ 0
-DDR2_CK_T
-Text GLabel 6500 6000 2    60   Input ~ 0
-DDR2_CK_C
-Text GLabel 9400 6000 2    60   Input ~ 0
-DDR2_CKE
-Text GLabel 9400 1100 2    60   Input ~ 0
-DDR2_DQ0
-Text GLabel 9400 1200 2    60   Input ~ 0
-DDR2_DQ1
-Text GLabel 9400 1300 2    60   Input ~ 0
-DDR2_DQ2
-Text GLabel 9400 1400 2    60   Input ~ 0
-DDR2_DQ3
-Text GLabel 9400 1500 2    60   Input ~ 0
-DDR2_DQ4
-Text GLabel 9400 1600 2    60   Input ~ 0
-DDR2_DQ5
-Text GLabel 9400 1700 2    60   Input ~ 0
-DDR2_DQ6
-Text GLabel 9400 1800 2    60   Input ~ 0
-DDR2_DQ7
-Text GLabel 9400 1900 2    60   Input ~ 0
-DDR2_DQ8
-Text GLabel 9400 2000 2    60   Input ~ 0
-DDR2_DQ9
-Text GLabel 9400 2100 2    60   Input ~ 0
-DDR2_DQ10
-Text GLabel 9400 2200 2    60   Input ~ 0
-DDR2_DQ11
-Text GLabel 9400 2300 2    60   Input ~ 0
-DDR2_DQ12
-Text GLabel 9400 2400 2    60   Input ~ 0
-DDR2_DQ13
-Text GLabel 9400 2500 2    60   Input ~ 0
-DDR2_DQ14
-Text GLabel 9400 2600 2    60   Input ~ 0
-DDR2_DQ15
-Text GLabel 9400 2700 2    60   Input ~ 0
-DDR2_DQ16
-Text GLabel 9400 2800 2    60   Input ~ 0
-DDR2_DQ17
-Text GLabel 9400 2900 2    60   Input ~ 0
-DDR2_DQ18
-Text GLabel 9400 3000 2    60   Input ~ 0
-DDR2_DQ19
-Text GLabel 9400 3100 2    60   Input ~ 0
-DDR2_DQ20
-Text GLabel 9400 3200 2    60   Input ~ 0
-DDR2_DQ21
-Text GLabel 9400 3300 2    60   Input ~ 0
-DDR2_DQ22
-Text GLabel 9400 3400 2    60   Input ~ 0
-DDR2_DQ23
-Text GLabel 9400 3500 2    60   Input ~ 0
-DDR2_DQ24
-Text GLabel 9400 3600 2    60   Input ~ 0
-DDR2_DQ25
-Text GLabel 9400 3700 2    60   Input ~ 0
-DDR2_DQ26
-Text GLabel 9400 3800 2    60   Input ~ 0
-DDR2_DQ27
-Text GLabel 9400 3900 2    60   Input ~ 0
-DDR2_DQ28
-Text GLabel 9400 4000 2    60   Input ~ 0
-DDR2_DQ29
-Text GLabel 9400 4100 2    60   Input ~ 0
-DDR2_DQ30
-Text GLabel 9400 4200 2    60   Input ~ 0
-DDR2_DQ31
 Wire Wire Line
 	1100 5400 1200 5400
 Wire Wire Line
@@ -462,18 +352,6 @@ Wire Wire Line
 	7900 5700 7900 5800
 Wire Wire Line
 	7900 5600 7900 5700
-Text GLabel 6500 5300 2    60   Input ~ 0
-DDR2_DQSL_T
-Text GLabel 6500 5400 2    60   Input ~ 0
-DDR2_DQSL_C
-Text GLabel 6500 5500 2    60   Input ~ 0
-DDR2_DQSU_T
-Text GLabel 6500 5600 2    60   Input ~ 0
-DDR2_DQSU_C
-Text GLabel 6500 5800 2    60   Input ~ 0
-DDR2_DMU
-Text GLabel 6500 5700 2    60   Input ~ 0
-DDR2_DML
 NoConn ~ 6500 2500
 NoConn ~ 6500 2600
 NoConn ~ 6500 2700
