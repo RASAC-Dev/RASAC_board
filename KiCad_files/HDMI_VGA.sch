@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 9 7
+Sheet 7 7
 Title "Reconfigurable Application-Specific Accelerator Card"
 Date "2019-03-31"
 Rev "0.9"
@@ -629,7 +629,7 @@ F 3 "" H 6800 5950 50  0001 C CNN
 	1    7750 5550
 	1    0    0    -1  
 $EndComp
-Text GLabel 6650 5050 0    60   Input ~ 0
+Text GLabel 6500 4850 0    60   Input ~ 0
 VGA_R1
 Text GLabel 6500 4950 0    60   Input ~ 0
 VGA_R2
