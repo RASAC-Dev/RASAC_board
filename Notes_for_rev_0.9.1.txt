@@ -1,0 +1,76 @@
+Power:
+Regulator inductors are wrong footprints.
+L1, L2, L3
+- Footprint too small to fit
+
+Wrong enable signal voltage.
+U3
+- 12V is TOO HIGH for enable signal and will burn something.
+- Recommended to NC that pin connection since it should be the first to power up anyways.
+
+Dual power diodes.
+D1
+- Voltage drop is too high; find a better suited component.
+- Recommeded to add a diode from the other power source as well.
+
+Test/status LEDs.
+U3, U4, U5
+- Add LEDs for power status indicator for each rail.
+
+Better placement of decoupling capacitors.
+C*
+- Move around capacitors near to the devices.
+- Just overall better placements.
+
+Components out of stock on Digikey
+U3, C24, C26, C28
+
+FPGA:
+Configuration header has wrong footprint/schematic symbol.
+J13
+- Symbol has counter-clockwise numbering while footprint has even/odd numbering.
+
+Configuration flash is not supported.
+U10
+- Replace with a supported one. (Ordered MT25QU128)
+- Also, wrong size footprint.
+
+EMCCLK on wrong pin/no user clock.
+U8
+- Use a MRCC or SRCC pin.
+
+Incorrect bank voltages.
+U1
+- Bank 15 should receive VCC3V3.
+- Recommended to reorganize pins by function and necessary bank voltage.
+
+GPIOs
+U1
+- Add some GPIOs and LEDs for easy debugging and testing.
+- And a few more test points.
+
+USB and JTAG:
+USB Type-C needs extra Power Delivery pins.
+J4
+- Type-C connections require CC pins.
+- Recommeded to add 5.1k resistors from CC1 and CC2 to GND.
+- This signals that it's a power sink by having Rd pull-down resistors.
+
+Better JTAG chip
+U6
+- Possibly find a better chip to use.
+- Currently using "Papilio Loader" to load bitstreams. (Is open source)
+- The jumps on TDO/TDI were a gread idea.
+
+Have not tested HDMI
+
+To get Rev 0.9 working, fix the above
+- The inductors were soldered with wire extensions
+- Config header had a plug with correct mappings
+- Soldered a LED + resistor to net HDMI_R_D0 on R32 (Pin N14)
+- EMCCLK, as well as connected on PCB, was connected to net HDMI_R_D7 (Pin P14)
+- D1 was either shorted across or replaced with A15F
+- Connect CC1 and CC2 of J4 to ground via 5.1k pull-down.
+  This was done via connecting enameled wires to the pins and soldering the connector itself on the other side of the board.
+- The FT2232 (U6) cannot do JTAG directly, but rather JTAG via its MPSSE mode, which does not work with Vivado or most tools.
+  After configuring the chip, Papilio Loader can be used to program the FPGA and the SPI, or FTDI provided libraries to wrie custom loaders. 
